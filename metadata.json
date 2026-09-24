@@ -1,7 +1,6 @@
 {
   "name": "SIAA",
-  "description": "SIAA Android v2.3 — Release Candidate Pre-A1–C2, offline-first, adaptive, hands-free, with learner-facing grammar and release QA tooling.",
+  "description": "Adaptive Auditory English System - Hands-free audio-first English learning with earbud controls and offline speech audio.",
   "requestFramePermissions": [],
-  "majorCapabilities": [],
-  "version": "2.3.0"
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

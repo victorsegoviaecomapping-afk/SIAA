@@ -3,6 +3,6 @@
     <item
         android:width="66dp"
         android:height="66dp"
-        android:drawable="@drawable/ic_siaa_icon"
+        android:drawable="@drawable/ic_siaa_foreground"
         android:gravity="center" />
 </layer-list>

@@ -1,128 +1,162 @@
 package com.siaa.app
 
-import android.Manifest
-import android.content.Intent
-import android.content.pm.PackageManager
-import android.os.Build
 import android.os.Bundle
+import android.view.KeyEvent
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.viewModels
-import androidx.core.content.ContextCompat
-import androidx.lifecycle.lifecycleScope
-import com.siaa.app.media.SiaaPlaybackService
-import com.siaa.app.ui.SiaaApp
-import com.siaa.core.model.SessionMode
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import org.json.JSONObject
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.Icon
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
+import com.siaa.app.ui.screens.CurriculumScreen
+import com.siaa.app.ui.screens.EarbudCalibrationScreen
+import com.siaa.app.ui.screens.ProgressStatsScreen
+import com.siaa.app.ui.screens.StudySessionScreen
+import com.siaa.app.ui.theme.SiaaDarkBg
+import com.siaa.app.ui.theme.SiaaPrimaryCyan
+import com.siaa.app.ui.theme.SiaaSurface
+import com.siaa.app.ui.theme.SiaaTextSecondary
+import com.siaa.app.ui.theme.SiaaTheme
+import com.siaa.core.runtime.MediaControlEvent
+
+sealed class Screen(val title: String, val icon: ImageVector, val tag: String) {
+    object Study : Screen("Estudio", Icons.Default.PlayArrow, "nav_study")
+    object Curriculum : Screen("Currículo", Icons.Default.Info, "nav_curriculum")
+    object Earbuds : Screen("Audífonos", Icons.Default.DateRange, "nav_earbuds")
+    object Progress : Screen("Progreso", Icons.Default.Star, "nav_progress")
+}
 
 class MainActivity : ComponentActivity() {
-    private val viewModel by viewModels<MainViewModel>()
-    private val graph get() = (application as SiaaApplication).graph
-    private var pendingSpeech = false
 
-    private val notificationPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { }
-    private val audioPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
-        if (granted && pendingSpeech) { pendingSpeech=false; beginSpeechRecognition() }
-        else if (!granted) viewModel.setSystemMessage("El micrófono es necesario para evaluar speaking.")
-    }
-    private val exportBackup = registerForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
-        uri ?: return@registerForActivityResult
-        lifecycleScope.launch {
-            runCatching { withContext(Dispatchers.IO) {
-                val root=JSONObject(graph.backupManager.exportJson()); root.put("userPreferences",graph.preferenceStore.exportJsonObject())
-                contentResolver.openOutputStream(uri)?.bufferedWriter()?.use { it.write(root.toString(2)) } ?: error("No se pudo abrir destino")
-            } }
-                .onSuccess { viewModel.setSystemMessage("Backup exportado correctamente.") }
-                .onFailure { viewModel.setSystemMessage("Error al exportar: ${it.message}") }
-        }
-    }
-    private val importBackup = registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
-        uri ?: return@registerForActivityResult
-        lifecycleScope.launch {
-            runCatching { withContext(Dispatchers.IO) {
-                val text=contentResolver.openInputStream(uri)?.bufferedReader()?.use { it.readText() } ?: error("No se pudo leer backup")
-                val root=JSONObject(text); graph.backupManager.importJson(root.toString()); root.optJSONObject("userPreferences")?.let(graph.preferenceStore::importJsonObject)
-            } }
-                .onSuccess { viewModel.setSystemMessage("Backup restaurado."); viewModel.refresh() }
-                .onFailure { viewModel.setSystemMessage("Backup rechazado: ${it.message}") }
-        }
-    }
-    private val importContentPack = registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
-        uri ?: return@registerForActivityResult
-        lifecycleScope.launch {
-            runCatching { withContext(Dispatchers.IO) { contentResolver.openInputStream(uri)?.use { graph.contentPackManager.install(it) } ?: error("No se pudo leer pack") } }
-                .onSuccess { r ->
-                    withContext(Dispatchers.IO) { graph.seeder.seedIfNeeded(force = true) }
-                    viewModel.setSystemMessage("Content pack ${r.version} instalado y verificado."); viewModel.refresh()
-                }.onFailure { viewModel.setSystemMessage("Content pack rechazado: ${it.message}") }
-        }
-    }
+    private val app by lazy { application as SiaaApplication }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        requestNotificationPermissionIfNeeded()
+        enableEdgeToEdge()
+
         setContent {
-            SiaaApp(
-                viewModel = viewModel,
-                onStartMode = ::startMode,
-                onStop = ::stopSession,
-                onStartCalibration = ::startCalibration,
-                onStopCalibration = ::stopCalibration,
-                onStartSpeaking = ::requestSpeaking,
-                onExportBackup = { exportBackup.launch("siaa-learning-backup.json") },
-                onImportBackup = { importBackup.launch(arrayOf("application/json","text/plain")) },
-                onImportContentPack = { importContentPack.launch(arrayOf("application/zip","application/octet-stream")) },
-                onRollbackContent = ::rollbackContent
+            SiaaTheme {
+                MainAppContainer(app = app)
+            }
+        }
+    }
+
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
+        val profile = app.userPreferencesRepository.deviceProfile.value
+        val mediaEvent = app.earbudCommandRouter.mapKeyCodeToEvent(keyCode, profile)
+        if (mediaEvent != null) {
+            val handled = app.sessionStateMachine.handleMediaControlEvent(mediaEvent)
+            if (handled) {
+                if (mediaEvent == MediaControlEvent.PLAY_PAUSE) {
+                    val currentEx = app.sessionStateMachine.uiState.value.currentExercise
+                    currentEx?.let {
+                        app.audioPlayerController.playAssetOrTts(it.audioPath, it.promptText, it.title)
+                    }
+                }
+                return true
+            }
+        }
+        return super.onKeyDown(keyCode, event)
+    }
+}
+
+@Composable
+fun MainAppContainer(app: SiaaApplication) {
+    var selectedScreenIndex by remember { mutableIntStateOf(0) }
+    val screens = listOf(Screen.Study, Screen.Curriculum, Screen.Earbuds, Screen.Progress)
+
+    // Preload exercises on launch
+    LaunchedEffect(Unit) {
+        val exercises = app.curriculumRepository.getExercises(level = "A1")
+        if (app.sessionStateMachine.uiState.value.currentExercise == null) {
+            app.sessionStateMachine.startSession(
+                exercises = exercises,
+                initialProgress = app.userPreferencesRepository.userProgress.value
             )
         }
     }
 
-    override fun onResume() { super.onResume(); viewModel.refresh() }
-
-    private fun startMode(mode: SessionMode) {
-        val p = graph.preferenceStore.current()
-        val intent = Intent(this, SiaaPlaybackService::class.java).apply {
-            action = SiaaPlaybackService.ACTION_START_SESSION
-            putExtra(SiaaPlaybackService.EXTRA_MODE, mode.name)
-            putExtra(SiaaPlaybackService.EXTRA_MAX_ITEMS, p.maxItems)
-            putExtra(SiaaPlaybackService.EXTRA_TARGET_DURATION_MINUTES, p.targetDurationMinutes)
-            putExtra(SiaaPlaybackService.EXTRA_LEARNING_GOAL, p.learningGoal.name)
-            putExtra(SiaaPlaybackService.EXTRA_ENGLISH_VARIETY, p.englishVariety.name)
-            putExtra(SiaaPlaybackService.EXTRA_INTENSITY, p.intensity.name)
-            putExtra(SiaaPlaybackService.EXTRA_ANNOUNCE_CONTROLS, p.announceControls)
-            putExtra(SiaaPlaybackService.EXTRA_FEEDBACK_EXPLANATIONS, p.feedbackExplanations)
-            putExtra(SiaaPlaybackService.EXTRA_SPEECH_RATE, p.speechRate)
-            putExtra(SiaaPlaybackService.EXTRA_CONTROL_TOKEN, graph.controlToken)
+    Scaffold(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(SiaaDarkBg),
+        bottomBar = {
+            NavigationBar(
+                containerColor = SiaaSurface,
+                contentColor = SiaaPrimaryCyan
+            ) {
+                screens.forEachIndexed { index, screen ->
+                    NavigationBarItem(
+                        selected = selectedScreenIndex == index,
+                        onClick = { selectedScreenIndex = index },
+                        icon = {
+                            Icon(
+                                imageVector = screen.icon,
+                                contentDescription = screen.title
+                            )
+                        },
+                        label = {
+                            Text(text = screen.title)
+                        },
+                        colors = NavigationBarItemDefaults.colors(
+                            selectedIconColor = Color.Black,
+                            selectedTextColor = SiaaPrimaryCyan,
+                            indicatorColor = SiaaPrimaryCyan,
+                            unselectedIconColor = SiaaTextSecondary,
+                            unselectedTextColor = SiaaTextSecondary
+                        ),
+                        modifier = Modifier.testTag(screen.tag)
+                    )
+                }
+            }
         }
-        ContextCompat.startForegroundService(this, intent)
-    }
-
-    private fun requestSpeaking() {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
-            pendingSpeech=true; audioPermission.launch(Manifest.permission.RECORD_AUDIO)
-        } else beginSpeechRecognition()
-    }
-    private fun beginSpeechRecognition() {
-        val item=viewModel.uiState.value.practice.speaking ?: return
-        viewModel.setSystemMessage("Escuchando: ${item.targetEn}")
-        graph.productionSpeechRecognizer.start { result -> runOnUiThread {
-            result.onSuccess(viewModel::completeSpeaking).onFailure { viewModel.setSystemMessage("No se pudo evaluar speaking: ${it.message}") }
-        } }
-    }
-
-    private fun rollbackContent() {
-        lifecycleScope.launch {
-            withContext(Dispatchers.IO) { graph.contentPackManager.rollbackToBundled(); graph.seeder.seedIfNeeded(force=true) }
-            viewModel.setSystemMessage("Se restauró el contenido incluido en la app."); viewModel.refresh()
+    ) { innerPadding ->
+        androidx.compose.foundation.layout.Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding)
+        ) {
+            when (selectedScreenIndex) {
+                0 -> StudySessionScreen(
+                    sessionStateMachine = app.sessionStateMachine,
+                    audioPlayerController = app.audioPlayerController,
+                    onNavigateToCalibration = { selectedScreenIndex = 2 }
+                )
+                1 -> CurriculumScreen(
+                    curriculumRepository = app.curriculumRepository,
+                    sessionStateMachine = app.sessionStateMachine,
+                    audioPlayerController = app.audioPlayerController,
+                    onStartPractice = { selectedScreenIndex = 0 }
+                )
+                2 -> EarbudCalibrationScreen(
+                    userPreferencesRepository = app.userPreferencesRepository,
+                    earbudCommandRouter = app.earbudCommandRouter
+                )
+                3 -> ProgressStatsScreen(
+                    userPreferencesRepository = app.userPreferencesRepository
+                )
+            }
         }
     }
-
-    private fun stopSession() { startService(Intent(this, SiaaPlaybackService::class.java).apply { action=SiaaPlaybackService.ACTION_STOP_SESSION; putExtra(SiaaPlaybackService.EXTRA_CONTROL_TOKEN,graph.controlToken) }) }
-    private fun startCalibration() { ContextCompat.startForegroundService(this, Intent(this,SiaaPlaybackService::class.java).apply { action=SiaaPlaybackService.ACTION_START_CALIBRATION; putExtra(SiaaPlaybackService.EXTRA_CONTROL_TOKEN,graph.controlToken) }) }
-    private fun stopCalibration() { startService(Intent(this,SiaaPlaybackService::class.java).apply { action=SiaaPlaybackService.ACTION_STOP_CALIBRATION; putExtra(SiaaPlaybackService.EXTRA_CONTROL_TOKEN,graph.controlToken) }) }
-    private fun requestNotificationPermissionIfNeeded() { if (Build.VERSION.SDK_INT>=33 && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS)!=PackageManager.PERMISSION_GRANTED) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) }
 }

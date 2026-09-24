@@ -1,102 +1,51 @@
-# SIAA Android
+# SIAA — Sistema de Inglés Auditivo Adaptativo
 
-[![Validación](https://github.com/segesc/siaa-android/actions/workflows/validate.yml/badge.svg)](https://github.com/segesc/siaa-android/actions/workflows/validate.yml)
+SIAA es una aplicación Android nativa construida con **Kotlin**, **Jetpack Compose** y **Material Design 3**, diseñada para el aprendizaje auditivo adaptativo de inglés mediante control por audífonos manos libres y reproducción de audio offline.
 
-Versión fuente **2.3.0 Release Candidate** · Kotlin · Jetpack Compose · Android
+## Características Principales
 
-[Primeros pasos](START_HERE.md) · [Documentación](docs/README.md) · [Release readiness](docs/RELEASE_READINESS_V23.md) · [Cambios](CHANGELOG.md)
+1. **Modo Manos Libres y Control por Audífonos (`EarbudCommandRouter`)**:
+   - Interacción completa mediante botones multimedia de audífonos (`Play/Pause`, `Next`, `Previous`).
+   - Perfiles preconfigurados para AirPods, Galaxy Buds, Sony Serie 1000X y mapeo personalizado.
+   - Simulador interactivo en pantalla para probar eventos de hardware.
+   - Enrutamiento calibrable para responder a opciones de ejercicio y escaleras de ayuda.
 
-**SIAA — Sistema de Inglés Auditivo Adaptativo** es una app Android offline-first pensada para estudiar inglés con el teléfono guardado y la pantalla apagada. Su interacción principal usa audio y comandos multimedia de audífonos (`Play/Pause`, `Next`, `Previous`) mediante Media3/MediaSession.
+2. **Servicio Foreground con Pantalla Bloqueada (`SiaaPlaybackService`)**:
+   - Servicio en primer plano para mantener la sesión de audio activa con la pantalla apagada o en el bolsillo.
+   - Controles de medios integrados en la notificación persistente y pantalla de bloqueo.
+   - Gestión adecuada de foco de audio (`AudioFocusRequest`).
 
-## Estado v2.3
+3. **Currículo CEFR Extensivo (Pre-A1 a C2)**:
+   - **Comprensión Auditiva (Listening)**: Audios de conversaciones cotidianas, instrucciones y discursos diplomáticos/académicos.
+   - **Discriminación Fonológica**: Contrastes acústicos mínimos (/b/ vs /v/, /i:/ vs /ɪ/, flap-t, entonación y acento léxico).
+   - **Frases y Colocaciones**: Expresiones fijadas, phrasal verbs y conectores de discurso contextualizados.
+   - **Deletreo y Alfabeto**: Fonética elemental, números y supervivencia (Pre-A1).
+   - Catálogo offline indexado en `audio_index.json` con cientos de clips de audio Vorbis (`.ogg`) integrados en assets.
+   - Motor de Text-to-Speech (TTS) integrado como respaldo.
 
-La capa curricular estructural está en estado **Content Complete Candidate** y la v2.3 añade hardening de release:
+4. **Motor Pedagógico Adaptativo BKT (Bayesian Knowledge Tracing)**:
+   - Estimación bayesiana continua de la probabilidad latente de dominio $P(L_t)$.
+   - Ajustes según probabilidades de Guess ($P_G$), Slip ($P_S$) y Transición ($P_T$).
+   - Modelo de retención de memoria espaciada con decaimiento exponencial (Half-life $R(t) = 2^{-\Delta t / S}$).
 
-- **3,651 KCs**, **7,175 relaciones**, **9,473 ejercicios estáticos**;
-- **2,746 lexemas** y ~**9,133 variantes** generables;
-- **315 unidades formulaicas/multiword**;
-- **162 listenings**, **73 discriminaciones de pronunciación** y **62 KCs pragmáticos**;
-- **74 KCs Pre-A1**;
-- **3,648 audios offline**;
-- 411 KCs gramaticales CEFR-J y 1,233 actividades convertidos a presentación learner-facing;
-- gates de completitud, profundidad, lingüística, audio, migraciones y runtime;
-- CI Android reproducible con Gradle 9.6.0 + SDK instalado en Actions;
-- workflow de emulador para pruebas instrumentadas;
-- protocolo y scripts ADB para validación física de audífonos/lockscreen/rutas;
-- pipeline de sustitución selectiva por audio humano con provenance obligatoria.
+5. **Escalera de Ayuda Pedagógica (Help Ladder)**:
+   - **Nivel 1**: Pista contextual sin revelar la respuesta.
+   - **Nivel 2**: Modelo auditivo a velocidad reducida (0.75x).
+   - **Nivel 3**: Transcripción completa y explicación lingüística.
 
-El audio bundled continúa siendo sintético. La validación con audífonos físicos, QA humano y eficacia longitudinal siguen siendo dependencias externas y no se presentan como completadas.
+## Estructura de la Aplicación
 
-## Arquitectura
+- `com.siaa.core.model`: Modelos de datos para perfiles de dispositivos (`DeviceProfile`), ítems curriculares (`ExerciseItem`), opciones y progreso del usuario.
+- `com.siaa.core.algorithm`: Motor de estimación bayesiana (`BktEngine`) y cálculo de estabilidad de memoria.
+- `com.siaa.core.runtime`: Máquina de estados pedagógica (`SessionStateMachine`), escalera de ayuda y eventos multimedia.
+- `com.siaa.core.data`: Repositorio curricular (`CurriculumRepository`) y preferencias persistentes (`UserPreferencesRepository`).
+- `com.siaa.app.media`: Enrutador de eventos de hardware (`EarbudCommandRouter`), controlador de audio (`AudioPlayerController`) y servicio en segundo plano (`SiaaPlaybackService`).
+- `com.siaa.app.ui`: Pantallas en Jetpack Compose (`StudySessionScreen`, `CurriculumScreen`, `EarbudCalibrationScreen`, `ProgressStatsScreen`) y sistema de diseño Material 3 (`Theme.kt`, `Color.kt`, `Type.kt`).
 
-- `:app` — UI Compose, `MediaSessionService`, routing de botones, preferencias y composición de dependencias.
-- `:core:model` — modelos de dominio.
-- `:core:algorithm` — BKT, half-life/memoria, Knowledge Space, Q-matrix/CDM, MIRT, SMC, planner, lookahead y Thompson Sampling restringido.
-- `:core:runtime` — máquina de estados pedagógica, help ladder, restore y protocolo de sesión.
-- `:core:data` — Room, content packs versionados, repositorio local e historial.
-- `:core:audio` — TTS, audio focus, salida privada y protección de rutas.
-- `:core:content` — validación curricular y generación controlada de variantes.
+## Requisitos de Compilación
 
-## Build
-
-Toolchain fijado:
-
-- JDK 17
-- compileSdk 37
-- targetSdk 36
-- Gradle 9.6.0
-- AGP 9.4.0
-
-Con wrapper disponible:
-
-```bash
-./gradlew clean :app:assembleDebug
-```
-
-Si el ZIP no contiene `gradle-wrapper.jar`, consulta `docs/BUILD_AND_RUN.md`. En CI el build no depende de ese binario: `gradle/actions/setup-gradle` provisiona Gradle 9.6.0 y el workflow instala el SDK requerido.
-
-## QA local sin Android SDK
-
-```bash
-python scripts/validate_project.py
-python scripts/profile_audit.py
-python scripts/audio_asset_audit.py
-python scripts/audio_signal_audit.py
-python scripts/content_depth_audit.py
-python scripts/content_completeness_audit.py
-python scripts/linguistic_qa_audit.py
-python scripts/release_readiness_audit.py
-python scripts/smoke_migration.py
-./scripts/smoke_pure_kotlin.sh
-./scripts/smoke_content.sh
-./scripts/smoke_runtime.sh
-./scripts/smoke_runtime_regressions.sh
-./scripts/smoke_spelling_runtime.sh
-python scripts/verify_release.py
-```
-
-Para el teléfono físico, seguir `docs/DEVICE_QA_PROTOCOL_V23.md`. Para sustituir audio sintético, usar `docs/HUMAN_AUDIO_PIPELINE_V23.md`.
-
-## Automatización
-
-- `.github/workflows/validate.yml` — gates rápidos de contenido/integridad.
-- `.github/workflows/android-ci.yml` — SDK + tests + lint + compilación de APK e instrumentation APKs.
-- `.github/workflows/android-device-tests.yml` — pruebas instrumentadas en emulador Android.
-
-## Estructura
-
-```text
-app/                Aplicación Android y assets
-core/               Modelo, algoritmo, runtime, datos, audio y contenido
-docs/               Arquitectura, QA, protocolos y estado de release
-gradle/             Catálogo de versiones y configuración del wrapper
-reference/          Documento maestro
-research_sources/   Procedencia de fuentes
-scripts/            QA, importación, validación y herramientas ADB
-tools/              Smoke tests Kotlin
-.github/            Workflows CI
-```
-
-## Licencia y referencias
-
-El repositorio conserva los avisos de las referencias incluidas. No se asigna automáticamente una licencia nueva a material externo. Toda grabación humana debe conservar licencia, origen y atribución/release aplicable antes de activarse.
+- **Android SDK:** Compile SDK 36, Min SDK 26, Target SDK 36
+- **JDK:** Java 17 / 21
+- **Gradle:** 9.3.1
+- **Android Gradle Plugin (AGP):** 9.1.1 con soporte nativo de Kotlin
+- **Jetpack Compose:** Compose BOM 2024.09.00
