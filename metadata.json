@@ -1,0 +1,7 @@
+{
+  "name": "SIAA",
+  "description": "SIAA Android v2.3 — Release Candidate Pre-A1–C2, offline-first, adaptive, hands-free, with learner-facing grammar and release QA tooling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [],
+  "version": "2.3.0"
+}

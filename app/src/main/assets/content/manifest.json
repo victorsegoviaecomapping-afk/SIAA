@@ -1,0 +1,91 @@
+{
+  "id": "siaa-core-es-en",
+  "version": "2.4.0",
+  "schemaVersion": "1.1",
+  "contentVersion": "2.4.0",
+  "l1": "es-PE",
+  "l2": "en-US",
+  "checksums": {
+    "kcs.json": "597bfc246f752b47b06e7e5d1bbad58e4804cd514917b3e0508571d2a914a405",
+    "edges.json": "9d0e5f70ddd5cdaa89a83302a339727752575552d0c42dffd69148d58e9f0cb0",
+    "exercises.json": "4435a9337bb8b5e3e1d66a50e4ecf29ad6e5f406ba636f7a4db55b8143ce6583",
+    "lexemes.json": "8a26c75c9d1f809ac1e57d3da72efb51422232f8eddc23bc014f1c92d139219c"
+  },
+  "description": "SIAA v2.4 Deep Learning System: placement adaptativo, léxico por sentidos, distractores competitivos, transferencia multi-KC, expansión intensiva de listening/pronunciación y catálogo productivo speaking/reading/writing.",
+  "sources": [
+    "CEFR Companion Volume 2020",
+    "CEFR-J / Open Language Profiles vocabulary and grammar profiles",
+    "British Council / EAQUALS Core Inventory for General English (curriculum reference)",
+    "Nation - Learning Vocabulary in Another Language and BNC/COCA frequency principles",
+    "Lightbown & Spada - How Languages are Learned",
+    "Vandergrift & Goh - Teaching and Learning Second Language Listening",
+    "Celce-Murcia et al. - Teaching Pronunciation",
+    "Larsen-Freeman & Celce-Murcia - The Grammar Book",
+    "American English / U.S. Department of State Teaching Pragmatics resources",
+    "Jason-Latz/contexto Spanish language pack (selected derived lexical overlay; upstream data notices preserved)",
+    "British Council / EAQUALS Core Inventory for General English (functional and topic progression reference)",
+    "U.S. Department of State American English Teaching Pragmatics (open teaching reference)",
+    "CEFR-J / Open Language Profiles vocabulary profile",
+    "SIAA original Spanish glosses and A1 chunks (v1.3 authoring pass)",
+    "SIAA original Spanish glosses and A2 chunks (v1.4 authoring pass)",
+    "SIAA original Spanish glosses for B1 (v1.5 authoring pass)",
+    "Contexto Spanish language pack — selected high-confidence entries with upstream share-alike attribution",
+    "CEFR-J / Open Language Profiles — CEFR validation",
+    "SIAA original multiword/collocation authoring v2.0 (levelled against CEFR-J/Core Inventory guidance)",
+    "CEFR Companion Volume 2020 phonological and pragmatic descriptor guidance",
+    "Vandergrift & Goh metacognitive listening sequence (planning, monitoring, problem-solving, evaluation)",
+    "SIAA original multiword/collocation authoring v2.1 — second formulaic layer A1–C2",
+    "CEFR Companion Volume 2020 — functional/pragmatic progression reference",
+    "CEFR-J / Open Language Profiles — level consistency reference",
+    "SIAA original Pre-A1 survival/formulaic authoring v2.2",
+    "SIAA original Pre-A1 listening/pragmatics/phonology authoring v2.2",
+    "CEFR Companion Volume 2020 — Pre-A1/A1 reception and interaction guidance",
+    "SIAA original sense-aware lexical authoring v2.4",
+    "SIAA original integrated listening/transfer authoring v2.4",
+    "SIAA original extended-skills practice catalog v2.4"
+  ],
+  "coverage": {
+    "kcs": 3787,
+    "edges": 7175,
+    "staticExercises": 10739,
+    "lexemes": 2882,
+    "preA1Lexemes": 174,
+    "senseAwareLexemes": 2882,
+    "hardDistractorLexemes": 2880,
+    "exampleEnrichedLexemes": 2882,
+    "multiKcExercises": 724,
+    "placementItems": 308,
+    "listeningItems": 652,
+    "pronunciationItems": 283,
+    "practiceSpeaking": 210,
+    "practiceReading": 140,
+    "practiceWriting": 140,
+    "levels": [
+      "Pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ]
+  },
+  "audio": {
+    "index": "audio/audio_index.json",
+    "indexSha256": "d1dd6903e2d0480b7b65195dd1315149c07c66f66c0162e9f3b53ea9015d8733",
+    "synthetic": true,
+    "engine": "eSpeak",
+    "codec": "Ogg Vorbis",
+    "counts": {
+      "listening": 354,
+      "phonology": 123,
+      "phrase": 649,
+      "vocab": 2828
+    },
+    "totalBytes": 42772710
+  },
+  "practiceCatalog": {
+    "path": "practice/practice_catalog.json",
+    "sha256": "39c98a0b745acff61017cd41a3f1bf166886fd2238c89dbaec793b3a43a3ac2f"
+  }
+}

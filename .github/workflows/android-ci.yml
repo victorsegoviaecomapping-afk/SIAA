@@ -1,0 +1,60 @@
+name: Android CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.6.0'
+      - name: Accept licenses and install SDK
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-37" "build-tools;36.0.0" "platform-tools"
+      - name: Static/content checks
+        run: |
+          python3 scripts/validate_project.py
+          python3 scripts/verify_release.py
+          python3 scripts/profile_audit.py
+          python3 scripts/audio_asset_audit.py
+          python3 scripts/audio_signal_audit.py
+          python3 scripts/content_depth_audit.py
+          python3 scripts/content_completeness_audit.py
+          python3 scripts/linguistic_qa_audit.py
+          python3 scripts/release_readiness_audit.py
+          python3 scripts/smoke_migration.py
+          ./scripts/smoke_pure_kotlin.sh
+          ./scripts/smoke_content.sh
+          ./scripts/smoke_runtime.sh
+          ./scripts/smoke_runtime_regressions.sh
+          ./scripts/smoke_spelling_runtime.sh
+      - name: Unit tests and lint
+        run: gradle test lintDebug --stacktrace
+      - name: Compile application and instrumentation APKs
+        run: gradle :app:assembleDebug :app:assembleDebugAndroidTest :core:data:assembleDebugAndroidTest --stacktrace
+      - name: Publish debug APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: siaa-v23-debug-apks
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/androidTest/debug/*.apk
+            core/data/build/outputs/apk/androidTest/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14

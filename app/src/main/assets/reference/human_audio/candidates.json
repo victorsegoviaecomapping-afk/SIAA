@@ -1,0 +1,72 @@
+{
+  "version": "2.3.0",
+  "status": "reference-only-not-bundled",
+  "policy": "Every human recording must be individually license-verified, attributed where required, mapped to a pedagogical target, and QA-reviewed before it can replace synthetic audio.",
+  "candidates": [
+    {
+      "id": "wm_this_us",
+      "text": "this",
+      "accent": "en-US",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:En-us-this.ogg",
+      "file": "En-us-this.ogg",
+      "author": "Muke",
+      "license": "Public domain",
+      "verified": true,
+      "bundled": false,
+      "target": "voiced dental fricative /ð/",
+      "directIndexKey": null,
+      "importReady": false,
+      "integrationNote": "Reference/component candidate only: no exact standalone key currently exists in audio_index.json; do not force-map it to a multi-token contrast."
+    },
+    {
+      "id": "wm_think_us",
+      "text": "think",
+      "accent": "en-US",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:En-us-think.ogg",
+      "file": "En-us-think.ogg",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0 / GFDL (multi-licensed)",
+      "verified": true,
+      "bundled": false,
+      "target": "voiceless dental fricative /θ/",
+      "directIndexKey": "think",
+      "importReady": true,
+      "integrationNote": "Exact current audio_index key exists; binary still requires materialization and QA before import."
+    },
+    {
+      "id": "wm_ship_us",
+      "text": "ship",
+      "accent": "en-US",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:En-us-ship.ogg",
+      "file": "En-us-ship.ogg",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0 / GFDL (multi-licensed)",
+      "verified": true,
+      "bundled": false,
+      "target": "/ɪ/ member of ship/sheep contrast",
+      "directIndexKey": null,
+      "importReady": false,
+      "integrationNote": "Reference/component candidate only: no exact standalone key currently exists in audio_index.json; do not force-map it to a multi-token contrast."
+    },
+    {
+      "id": "wm_sheep_us",
+      "text": "sheep",
+      "accent": "en-US",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:En-us-sheep.ogg",
+      "file": "En-us-sheep.ogg",
+      "author": "Dvortygirl",
+      "license": "CC BY-SA 3.0 / GFDL (multi-licensed)",
+      "verified": true,
+      "bundled": false,
+      "target": "/iː/ member of ship/sheep contrast",
+      "directIndexKey": "sheep",
+      "importReady": true,
+      "integrationNote": "Exact current audio_index key exists; binary still requires materialization and QA before import."
+    }
+  ],
+  "verifiedOn": "2026-09-23"
+}

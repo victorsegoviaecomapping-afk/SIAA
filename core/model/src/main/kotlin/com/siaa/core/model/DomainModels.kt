@@ -1,0 +1,273 @@
+package com.siaa.core.model
+
+enum class KcDomain {
+    GRAMMAR, VOCABULARY, ORTHOGRAPHY, LISTENING, PHONOLOGY, PRAGMATICS, CHUNK, LETTER
+}
+
+enum class SessionMode {
+    PLACEMENT, ADAPTIVE, VOCABULARY, GRAMMAR, LISTENING, SPELLING, PRONUNCIATION,
+    SPEAKING, READING, WRITING
+}
+
+enum class LearningGoal { GENERAL, TRAVEL, WORK, ACADEMIC, EXAMS }
+enum class EnglishVariety { MIXED, AMERICAN, BRITISH }
+enum class SessionIntensity { GENTLE, BALANCED, CHALLENGING }
+
+enum class EvidenceDimension {
+    RECOGNITION, PRODUCTION, ORTHOGRAPHY, LISTENING, PRONUNCIATION, READING, WRITING
+}
+
+enum class ExerciseType {
+    TEACH,
+    AB,
+    SELF_ASSESS,
+    LISTENING_AB,
+    SPELLING_AB,
+    SPELL_FROM_AUDIO,
+    MEANING_AB,
+    CHUNK_AB,
+    PRON_DISCRIMINATION
+}
+
+enum class EarconKind { CORRECT, INCORRECT, REGISTERED, NEW_PROMPT, WARNING, ATTENTION }
+
+enum class ResponseConfidence { CORRECT, UNSURE, WRONG }
+
+enum class LearningRole { NEW, REVIEW, TRANSFER }
+
+enum class PedagogicalPhase { DIAGNOSIS, TEACHING, PRACTICE, TRANSFER, REVIEW }
+
+data class KnowledgeComponent(
+    val id: String,
+    val name: String,
+    val cefr: String,
+    val domain: KcDomain,
+    val form: String = "",
+    val meaning: String = "",
+    val use: String = "",
+    val importance: Double = 0.5,
+    val priorMastery: Double = 0.15,
+    val tags: Set<String> = emptySet()
+)
+
+data class KnowledgeEdge(
+    val fromId: String,
+    val toId: String,
+    val weight: Double = 1.0,
+    val hardPrerequisite: Boolean = true
+)
+
+data class LearnerKcState(
+    val kcId: String,
+    val mastery: Double = 0.15,
+    val recognition: Double = 0.15,
+    val production: Double = 0.10,
+    val orthography: Double = 0.10,
+    val automaticity: Double = 0.05,
+    val halfLifeHours: Double = 8.0,
+    val uncertainty: Double = 0.45,
+    val lastReviewedAtEpochMs: Long? = null,
+    val consecutiveSuccess: Int = 0,
+    val consecutiveFailure: Int = 0,
+    val totalAttempts: Int = 0,
+    val totalCorrect: Int = 0,
+    val exposureCount: Int = 0,
+    val lastExposedAtEpochMs: Long? = null,
+    val transferSuccesses: Int = 0,
+    val novelSuccesses: Int = 0
+)
+
+
+enum class InteractionKind {
+    GRADED_RESPONSE,
+    TIMEOUT,
+    TEACH_EXPOSURE,
+    SKIPPED
+}
+
+data class ExerciseDefinition(
+    val id: String,
+    val type: ExerciseType,
+    val kcIds: List<String>,
+    val cefr: String,
+    val difficulty: Double,
+    val promptEs: String,
+    val stimulusEn: String = "",
+    val optionA: String = "",
+    val optionB: String = "",
+    val correctOption: String = "",
+    val explanationEs: String = "",
+    val spellTarget: String = "",
+    val estimatedSeconds: Int = 20,
+    val tags: Set<String> = emptySet(),
+    val misconceptionIds: List<String> = emptyList()
+)
+
+data class InteractionRecord(
+    val id: Long = 0L,
+    val sessionId: Long,
+    val turnId: Long = 0L,
+    val exerciseId: String,
+    val timestampEpochMs: Long,
+    val response: String,
+    val correct: Boolean,
+    val graded: Boolean = true,
+    val kind: InteractionKind = InteractionKind.GRADED_RESPONSE,
+    val confidence: ResponseConfidence? = null,
+    val latencyMs: Long? = null,
+    val hintDepth: Int = 0,
+    val plannerScore: Double? = null,
+    val stateBeforeMastery: Double? = null,
+    val stateAfterMastery: Double? = null
+)
+
+
+data class SkillEvidence(
+    val id: Long = 0L,
+    val sessionId: Long? = null,
+    val activityId: String,
+    val kcIds: List<String>,
+    val dimension: EvidenceDimension,
+    val score: Double,
+    val timestampEpochMs: Long,
+    val latencyMs: Long? = null,
+    val rawResponse: String = "",
+    val source: String = "local"
+)
+
+data class PlacementProfile(
+    val overallCefr: String,
+    val domainCefr: Map<KcDomain, String>,
+    val domainAbility: Map<KcDomain, Double>,
+    val answeredItems: Int,
+    val reliability: Double
+)
+
+data class SessionRecord(
+    val id: Long = 0L,
+    val mode: SessionMode,
+    val startedAtEpochMs: Long,
+    val endedAtEpochMs: Long? = null,
+    val completedItems: Int = 0,
+    val correctItems: Int = 0
+)
+
+data class SessionSummary(
+    val id: Long,
+    val mode: SessionMode,
+    val startedAtEpochMs: Long,
+    val endedAtEpochMs: Long?,
+    val completedItems: Int,
+    val correctItems: Int,
+    val meanLatencyMs: Double?,
+    val gradedResponses: Int = completedItems
+) {
+    val accuracy: Double get() = if (gradedResponses == 0) 0.0 else correctItems.toDouble() / gradedResponses
+}
+
+data class DeviceProfile(
+    val id: Long = 0L,
+    val name: String,
+    val primaryKeyCode: Int? = null,
+    val secondaryKeyCode: Int? = null,
+    val backKeyCode: Int? = null,
+    val stopKeyCode: Int? = null,
+    val playPauseAvailable: Boolean = true,
+    val nextAvailable: Boolean = true,
+    val previousAvailable: Boolean = true,
+    val lastSeenAtEpochMs: Long = 0L
+)
+
+data class SessionCapabilities(
+    val hasPrimary: Boolean = true,
+    val hasSecondary: Boolean = true,
+    val hasBack: Boolean = true
+) {
+    val supportsBinary: Boolean get() = hasPrimary && hasSecondary
+    val supportsThreeWay: Boolean get() = hasPrimary && hasSecondary && hasBack
+
+    fun canPresent(type: ExerciseType): Boolean = when (type) {
+        ExerciseType.TEACH -> true
+        ExerciseType.SELF_ASSESS, ExerciseType.SPELL_FROM_AUDIO -> supportsThreeWay
+        else -> supportsBinary
+    }
+}
+
+enum class RuntimeEventType {
+    SESSION_STARTED,
+    EXERCISE_SELECTED,
+    PREDICTION_RECORDED,
+    PROMPT_STARTED,
+    PROMPT_FINISHED,
+    MEDIA_COMMAND_RECEIVED,
+    COMMAND_RECEIVED,
+    STATE_TRANSITION,
+    ANSWER_ACCEPTED,
+    ANSWER_REJECTED_DUPLICATE,
+    HELP_REQUESTED,
+    TIMEOUT,
+    PAUSED,
+    RESUMED,
+    ROUTE_LOST,
+    FEEDBACK,
+    TURN_COMMITTED,
+    SESSION_STOPPED,
+    TURN_CANCELLED,
+    ERROR
+}
+
+data class RuntimeEvent(
+    val id: Long = 0L,
+    val sessionId: Long,
+    val turnId: Long,
+    val timestampEpochMs: Long,
+    val eventType: RuntimeEventType,
+    val stateBefore: String,
+    val stateAfter: String,
+    val exerciseId: String? = null,
+    val runtimeCommand: String? = null,
+    val mediaKeyCode: Int? = null,
+    val payload: String? = null
+)
+
+
+data class Misconception(
+    val id: String,
+    val kcId: String,
+    val label: String,
+    val probability: Double,
+    val lastObservedAtEpochMs: Long
+)
+
+data class LearningSnapshot(
+    val components: List<KnowledgeComponent>,
+    val edges: List<KnowledgeEdge>,
+    val states: List<LearnerKcState>,
+    val exercises: List<ExerciseDefinition>,
+    val misconceptions: List<Misconception> = emptyList()
+) {
+    val componentById: Map<String, KnowledgeComponent> by lazy { components.associateBy { it.id } }
+    val stateByKcId: Map<String, LearnerKcState> by lazy { states.associateBy { it.kcId } }
+    val exerciseById: Map<String, ExerciseDefinition> by lazy { exercises.associateBy { it.id } }
+}
+
+data class PlannerCandidate(
+    val exercise: ExerciseDefinition,
+    val utility: Double,
+    val successProbability: Double,
+    val retentionUrgency: Double,
+    val informationValue: Double,
+    val unlockValue: Double,
+    val riskPenalty: Double,
+    val rationale: String
+)
+
+data class DashboardStats(
+    val totalKcs: Int,
+    val masteredKcs: Int,
+    val dueKcs: Int,
+    val averageMastery: Double,
+    val averageRetention: Double,
+    val totalInteractions: Int,
+    val currentCefrEstimate: String
+)

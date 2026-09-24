@@ -1,0 +1,631 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "6880e357b40e4deee634f92b4474283eaf69aec267e88a84344bf80cb73d7669",
+    "entities": [
+      {
+        "tableName": "knowledge_components",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `name` TEXT NOT NULL, `cefr` TEXT NOT NULL, `domain` TEXT NOT NULL, `form` TEXT NOT NULL, `meaning` TEXT NOT NULL, `useText` TEXT NOT NULL, `importance` REAL NOT NULL, `priorMastery` REAL NOT NULL, `tagsCsv` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "cefr",
+            "columnName": "cefr",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "domain",
+            "columnName": "domain",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "form",
+            "columnName": "form",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "meaning",
+            "columnName": "meaning",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "useText",
+            "columnName": "useText",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "importance",
+            "columnName": "importance",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "priorMastery",
+            "columnName": "priorMastery",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "tagsCsv",
+            "columnName": "tagsCsv",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "knowledge_edges",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`fromId` TEXT NOT NULL, `toId` TEXT NOT NULL, `weight` REAL NOT NULL, `hardPrerequisite` INTEGER NOT NULL, PRIMARY KEY(`fromId`, `toId`))",
+        "fields": [
+          {
+            "fieldPath": "fromId",
+            "columnName": "fromId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "toId",
+            "columnName": "toId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "weight",
+            "columnName": "weight",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "hardPrerequisite",
+            "columnName": "hardPrerequisite",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "fromId",
+            "toId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "sessions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mode` TEXT NOT NULL, `startedAtEpochMs` INTEGER NOT NULL, `endedAtEpochMs` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "mode",
+            "columnName": "mode",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "startedAtEpochMs",
+            "columnName": "startedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "endedAtEpochMs",
+            "columnName": "endedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": false,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "misconceptions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `kcId` TEXT NOT NULL, `label` TEXT NOT NULL, `probability` REAL NOT NULL, `lastObservedAtEpochMs` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "kcId",
+            "columnName": "kcId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "label",
+            "columnName": "label",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "probability",
+            "columnName": "probability",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "lastObservedAtEpochMs",
+            "columnName": "lastObservedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "app_meta",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`key` TEXT NOT NULL, `value` TEXT NOT NULL, PRIMARY KEY(`key`))",
+        "fields": [
+          {
+            "fieldPath": "key",
+            "columnName": "key",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "value",
+            "columnName": "value",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "key"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "learner_kc_state",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`kcId` TEXT NOT NULL, `mastery` REAL NOT NULL, `recognition` REAL NOT NULL, `production` REAL NOT NULL, `orthography` REAL NOT NULL, `automaticity` REAL NOT NULL, `halfLifeHours` REAL NOT NULL, `uncertainty` REAL NOT NULL, `lastReviewedAtEpochMs` INTEGER, `consecutiveSuccess` INTEGER NOT NULL, `consecutiveFailure` INTEGER NOT NULL, `totalAttempts` INTEGER NOT NULL, `totalCorrect` INTEGER NOT NULL, PRIMARY KEY(`kcId`))",
+        "fields": [
+          {
+            "fieldPath": "kcId",
+            "columnName": "kcId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "mastery",
+            "columnName": "mastery",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "recognition",
+            "columnName": "recognition",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "production",
+            "columnName": "production",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "orthography",
+            "columnName": "orthography",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "automaticity",
+            "columnName": "automaticity",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "halfLifeHours",
+            "columnName": "halfLifeHours",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "uncertainty",
+            "columnName": "uncertainty",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "lastReviewedAtEpochMs",
+            "columnName": "lastReviewedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": false,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "consecutiveSuccess",
+            "columnName": "consecutiveSuccess",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "consecutiveFailure",
+            "columnName": "consecutiveFailure",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "totalAttempts",
+            "columnName": "totalAttempts",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "totalCorrect",
+            "columnName": "totalCorrect",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "kcId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "exercises",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `type` TEXT NOT NULL, `kcIdsCsv` TEXT NOT NULL, `cefr` TEXT NOT NULL, `difficulty` REAL NOT NULL, `promptEs` TEXT NOT NULL, `stimulusEn` TEXT NOT NULL, `optionA` TEXT NOT NULL, `optionB` TEXT NOT NULL, `correctOption` TEXT NOT NULL, `explanationEs` TEXT NOT NULL, `spellTarget` TEXT NOT NULL, `estimatedSeconds` INTEGER NOT NULL, `tagsCsv` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "kcIdsCsv",
+            "columnName": "kcIdsCsv",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "cefr",
+            "columnName": "cefr",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "difficulty",
+            "columnName": "difficulty",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "promptEs",
+            "columnName": "promptEs",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "stimulusEn",
+            "columnName": "stimulusEn",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "optionA",
+            "columnName": "optionA",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "optionB",
+            "columnName": "optionB",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "correctOption",
+            "columnName": "correctOption",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "explanationEs",
+            "columnName": "explanationEs",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "spellTarget",
+            "columnName": "spellTarget",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "estimatedSeconds",
+            "columnName": "estimatedSeconds",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "tagsCsv",
+            "columnName": "tagsCsv",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "device_profiles",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `playPauseAvailable` INTEGER NOT NULL, `nextAvailable` INTEGER NOT NULL, `previousAvailable` INTEGER NOT NULL, `lastSeenAtEpochMs` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "playPauseAvailable",
+            "columnName": "playPauseAvailable",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "nextAvailable",
+            "columnName": "nextAvailable",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "previousAvailable",
+            "columnName": "previousAvailable",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "lastSeenAtEpochMs",
+            "columnName": "lastSeenAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "interactions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sessionId` INTEGER NOT NULL, `exerciseId` TEXT NOT NULL, `timestampEpochMs` INTEGER NOT NULL, `response` TEXT NOT NULL, `correct` INTEGER NOT NULL, `confidence` TEXT, `latencyMs` INTEGER, `hintDepth` INTEGER NOT NULL, `plannerScore` REAL, `stateBeforeMastery` REAL, `stateAfterMastery` REAL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "sessionId",
+            "columnName": "sessionId",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "exerciseId",
+            "columnName": "exerciseId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "timestampEpochMs",
+            "columnName": "timestampEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "response",
+            "columnName": "response",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "correct",
+            "columnName": "correct",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "confidence",
+            "columnName": "confidence",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "latencyMs",
+            "columnName": "latencyMs",
+            "affinity": "INTEGER",
+            "notNull": false,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "hintDepth",
+            "columnName": "hintDepth",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "plannerScore",
+            "columnName": "plannerScore",
+            "affinity": "REAL",
+            "notNull": false,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "stateBeforeMastery",
+            "columnName": "stateBeforeMastery",
+            "affinity": "REAL",
+            "notNull": false,
+            "defaultValue": "undefined"
+          },
+          {
+            "fieldPath": "stateAfterMastery",
+            "columnName": "stateAfterMastery",
+            "affinity": "REAL",
+            "notNull": false,
+            "defaultValue": "undefined"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6880e357b40e4deee634f92b4474283eaf69aec267e88a84344bf80cb73d7669')"
+    ]
+  }
+}

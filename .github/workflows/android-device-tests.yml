@@ -1,0 +1,53 @@
+name: Android emulator tests
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'core/data/**'
+      - 'core/audio/**'
+      - 'core/runtime/**'
+      - 'gradle/**'
+      - '*.gradle.kts'
+      - '.github/workflows/android-device-tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  instrumented:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.6.0'
+      - name: Install compile SDK
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-37" "build-tools;36.0.0" "platform-tools"
+      - name: Run app + Room instrumentation on API 36 emulator
+        uses: ReactiveCircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d
+        with:
+          api-level: 36
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          script: gradle :app:connectedDebugAndroidTest :core:data:connectedDebugAndroidTest --stacktrace
+      - name: Upload Android test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: instrumentation-reports
+          path: |
+            app/build/reports/androidTests/**
+            core/data/build/reports/androidTests/**
+          if-no-files-found: warn
+          retention-days: 14

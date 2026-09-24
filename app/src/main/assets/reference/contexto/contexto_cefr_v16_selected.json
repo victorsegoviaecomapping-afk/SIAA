@@ -1,0 +1,6652 @@
+[
+  {
+    "lemma": "data",
+    "meaningEs": "datos",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 401
+  },
+  {
+    "lemma": "profile",
+    "meaningEs": "perfil",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 408
+  },
+  {
+    "lemma": "icon",
+    "meaningEs": "ícono",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 425
+  },
+  {
+    "lemma": "browser",
+    "meaningEs": "navegador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 428
+  },
+  {
+    "lemma": "hardware",
+    "meaningEs": "hardware",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 436
+  },
+  {
+    "lemma": "database",
+    "meaningEs": "base de datos",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 439
+  },
+  {
+    "lemma": "alert",
+    "meaningEs": "alerta",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 444
+  },
+  {
+    "lemma": "version",
+    "meaningEs": "versión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 450
+  },
+  {
+    "lemma": "user",
+    "meaningEs": "usuario",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 461
+  },
+  {
+    "lemma": "client",
+    "meaningEs": "cliente",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 463
+  },
+  {
+    "lemma": "employee",
+    "meaningEs": "empleado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 466
+  },
+  {
+    "lemma": "community",
+    "meaningEs": "comunidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 481
+  },
+  {
+    "lemma": "route",
+    "meaningEs": "ruta",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 524
+  },
+  {
+    "lemma": "payment",
+    "meaningEs": "pago",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 530
+  },
+  {
+    "lemma": "budget",
+    "meaningEs": "presupuesto",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 533
+  },
+  {
+    "lemma": "shipping",
+    "meaningEs": "envío",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 548
+  },
+  {
+    "lemma": "certificate",
+    "meaningEs": "certificado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 563
+  },
+  {
+    "lemma": "translation",
+    "meaningEs": "traducción",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 574
+  },
+  {
+    "lemma": "recipe",
+    "meaningEs": "receta",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 585
+  },
+  {
+    "lemma": "clothing",
+    "meaningEs": "ropa",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 637
+  },
+  {
+    "lemma": "ceiling",
+    "meaningEs": "techo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 646
+  },
+  {
+    "lemma": "cable",
+    "meaningEs": "cable",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 655
+  },
+  {
+    "lemma": "project",
+    "meaningEs": "proyecto",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 675
+  },
+  {
+    "lemma": "later",
+    "meaningEs": "después",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 693
+  },
+  {
+    "lemma": "cabinet",
+    "meaningEs": "gabinete",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 705
+  },
+  {
+    "lemma": "contract",
+    "meaningEs": "contrato",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 712
+  },
+  {
+    "lemma": "panel",
+    "meaningEs": "panel",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 735
+  },
+  {
+    "lemma": "thread",
+    "meaningEs": "hilo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 752
+  },
+  {
+    "lemma": "actively",
+    "meaningEs": "activamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 757
+  },
+  {
+    "lemma": "effectively",
+    "meaningEs": "eficazmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 771
+  },
+  {
+    "lemma": "openly",
+    "meaningEs": "abiertamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 787
+  },
+  {
+    "lemma": "previously",
+    "meaningEs": "previamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 790
+  },
+  {
+    "lemma": "separately",
+    "meaningEs": "por separado",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 798
+  },
+  {
+    "lemma": "thesis",
+    "meaningEs": "tesis",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2700
+  },
+  {
+    "lemma": "reference",
+    "meaningEs": "referencia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2703
+  },
+  {
+    "lemma": "footnote",
+    "meaningEs": "nota al pie",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2713
+  },
+  {
+    "lemma": "seminar",
+    "meaningEs": "seminario",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2716
+  },
+  {
+    "lemma": "conference",
+    "meaningEs": "conferencia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2724
+  },
+  {
+    "lemma": "publication",
+    "meaningEs": "publicación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2726
+  },
+  {
+    "lemma": "rejection",
+    "meaningEs": "rechazo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2732
+  },
+  {
+    "lemma": "supervisor",
+    "meaningEs": "supervisor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2739
+  },
+  {
+    "lemma": "mentor",
+    "meaningEs": "mentor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2740
+  },
+  {
+    "lemma": "faculty",
+    "meaningEs": "facultad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2743
+  },
+  {
+    "lemma": "undergraduate",
+    "meaningEs": "estudiante de pregrado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2746
+  },
+  {
+    "lemma": "lecturer",
+    "meaningEs": "profesor universitario",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2751
+  },
+  {
+    "lemma": "investigator",
+    "meaningEs": "investigador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2756
+  },
+  {
+    "lemma": "objective",
+    "meaningEs": "objetivo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2816
+  },
+  {
+    "lemma": "assumption",
+    "meaningEs": "supuesto",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2820
+  },
+  {
+    "lemma": "procedure",
+    "meaningEs": "procedimiento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2829
+  },
+  {
+    "lemma": "outcome",
+    "meaningEs": "resultado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2834
+  },
+  {
+    "lemma": "predictor",
+    "meaningEs": "predictor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2835
+  },
+  {
+    "lemma": "inference",
+    "meaningEs": "inferencia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2843
+  },
+  {
+    "lemma": "estimate",
+    "meaningEs": "estimación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2869
+  },
+  {
+    "lemma": "outline",
+    "meaningEs": "esquema",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2934
+  },
+  {
+    "lemma": "quotation",
+    "meaningEs": "cita textual",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2941
+  },
+  {
+    "lemma": "supplement",
+    "meaningEs": "suplemento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 2979
+  },
+  {
+    "lemma": "transcript",
+    "meaningEs": "certificado de notas",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3024
+  },
+  {
+    "lemma": "tuition",
+    "meaningEs": "matrícula",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3046
+  },
+  {
+    "lemma": "handout",
+    "meaningEs": "material de clase",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3056
+  },
+  {
+    "lemma": "index",
+    "meaningEs": "índice",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3073
+  },
+  {
+    "lemma": "caption",
+    "meaningEs": "leyenda",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3138
+  },
+  {
+    "lemma": "legend",
+    "meaningEs": "leyenda",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3139
+  },
+  {
+    "lemma": "forthcoming",
+    "meaningEs": "de próxima publicación",
+    "pos": "expression",
+    "cefr": "B2",
+    "frequencyRank": 3144
+  },
+  {
+    "lemma": "headquarters",
+    "meaningEs": "sede central",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3176
+  },
+  {
+    "lemma": "division",
+    "meaningEs": "división",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3177
+  },
+  {
+    "lemma": "executive",
+    "meaningEs": "ejecutivo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3180
+  },
+  {
+    "lemma": "consultant",
+    "meaningEs": "consultor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3186
+  },
+  {
+    "lemma": "supplier",
+    "meaningEs": "proveedor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3188
+  },
+  {
+    "lemma": "badge",
+    "meaningEs": "gafete",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3201
+  },
+  {
+    "lemma": "shift",
+    "meaningEs": "turno",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3206
+  },
+  {
+    "lemma": "attendance",
+    "meaningEs": "asistencia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3209
+  },
+  {
+    "lemma": "overtime",
+    "meaningEs": "hora extra",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3213
+  },
+  {
+    "lemma": "guideline",
+    "meaningEs": "directriz",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3220
+  },
+  {
+    "lemma": "standard",
+    "meaningEs": "norma",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3221
+  },
+  {
+    "lemma": "metric",
+    "meaningEs": "métrica",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3228
+  },
+  {
+    "lemma": "priority",
+    "meaningEs": "prioridad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3232
+  },
+  {
+    "lemma": "evaluation",
+    "meaningEs": "evaluación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3238
+  },
+  {
+    "lemma": "feedback",
+    "meaningEs": "retroalimentación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3239
+  },
+  {
+    "lemma": "candidate",
+    "meaningEs": "candidato",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3260
+  },
+  {
+    "lemma": "applicant",
+    "meaningEs": "postulante",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3261
+  },
+  {
+    "lemma": "transfer",
+    "meaningEs": "traslado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3268
+  },
+  {
+    "lemma": "resignation",
+    "meaningEs": "renuncia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3269
+  },
+  {
+    "lemma": "availability",
+    "meaningEs": "disponibilidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3276
+  },
+  {
+    "lemma": "supervision",
+    "meaningEs": "supervisión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3332
+  },
+  {
+    "lemma": "audit",
+    "meaningEs": "auditoría",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3358
+  },
+  {
+    "lemma": "bid",
+    "meaningEs": "licitación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3432
+  },
+  {
+    "lemma": "pallet",
+    "meaningEs": "tarima",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3492
+  },
+  {
+    "lemma": "retreat",
+    "meaningEs": "retiro corporativo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3546
+  },
+  {
+    "lemma": "catering",
+    "meaningEs": "catering",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3555
+  },
+  {
+    "lemma": "physician",
+    "meaningEs": "médico",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3627
+  },
+  {
+    "lemma": "pharmacist",
+    "meaningEs": "farmacéutico",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3629
+  },
+  {
+    "lemma": "therapist",
+    "meaningEs": "terapeuta",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3651
+  },
+  {
+    "lemma": "paramedic",
+    "meaningEs": "paramédico",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3652
+  },
+  {
+    "lemma": "discharge",
+    "meaningEs": "alta médica",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3671
+  },
+  {
+    "lemma": "outpatient",
+    "meaningEs": "paciente ambulatorio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3673
+  },
+  {
+    "lemma": "cough",
+    "meaningEs": "tos",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3691
+  },
+  {
+    "lemma": "rash",
+    "meaningEs": "sarpullido",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3706
+  },
+  {
+    "lemma": "inflammation",
+    "meaningEs": "inflamación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3709
+  },
+  {
+    "lemma": "tremor",
+    "meaningEs": "temblor",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3718
+  },
+  {
+    "lemma": "pulse",
+    "meaningEs": "pulso",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3737
+  },
+  {
+    "lemma": "artery",
+    "meaningEs": "arteria",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3741
+  },
+  {
+    "lemma": "colon",
+    "meaningEs": "colon",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3751
+  },
+  {
+    "lemma": "nerve",
+    "meaningEs": "nervio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3759
+  },
+  {
+    "lemma": "bloodstream",
+    "meaningEs": "torrente sanguíneo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3788
+  },
+  {
+    "lemma": "pneumonia",
+    "meaningEs": "neumonía",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3803
+  },
+  {
+    "lemma": "influenza",
+    "meaningEs": "gripe",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3805
+  },
+  {
+    "lemma": "tuberculosis",
+    "meaningEs": "tuberculosis",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3815
+  },
+  {
+    "lemma": "malaria",
+    "meaningEs": "malaria",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3825
+  },
+  {
+    "lemma": "stroke",
+    "meaningEs": "accidente cerebrovascular",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3849
+  },
+  {
+    "lemma": "x-ray",
+    "meaningEs": "radiografía",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3892
+  },
+  {
+    "lemma": "therapy",
+    "meaningEs": "terapia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3951
+  },
+  {
+    "lemma": "medication",
+    "meaningEs": "medicamento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3952
+  },
+  {
+    "lemma": "dose",
+    "meaningEs": "dosis",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3954
+  },
+  {
+    "lemma": "vaccine",
+    "meaningEs": "vacuna",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3972
+  },
+  {
+    "lemma": "chemotherapy",
+    "meaningEs": "quimioterapia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3975
+  },
+  {
+    "lemma": "cast",
+    "meaningEs": "yeso",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3996
+  },
+  {
+    "lemma": "injection",
+    "meaningEs": "inyección",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 3998
+  },
+  {
+    "lemma": "transfusion",
+    "meaningEs": "transfusión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4001
+  },
+  {
+    "lemma": "outbreak",
+    "meaningEs": "brote",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4027
+  },
+  {
+    "lemma": "pandemic",
+    "meaningEs": "pandemia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4029
+  },
+  {
+    "lemma": "surveillance",
+    "meaningEs": "vigilancia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4036
+  },
+  {
+    "lemma": "quarantine",
+    "meaningEs": "cuarentena",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4038
+  },
+  {
+    "lemma": "transmission",
+    "meaningEs": "transmisión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4041
+  },
+  {
+    "lemma": "privilege",
+    "meaningEs": "privilegio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4130
+  },
+  {
+    "lemma": "obligation",
+    "meaningEs": "obligación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4133
+  },
+  {
+    "lemma": "penalty",
+    "meaningEs": "pena",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4136
+  },
+  {
+    "lemma": "oath",
+    "meaningEs": "juramento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4145
+  },
+  {
+    "lemma": "testimony",
+    "meaningEs": "testimonio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4146
+  },
+  {
+    "lemma": "chancellor",
+    "meaningEs": "canciller",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4193
+  },
+  {
+    "lemma": "witness",
+    "meaningEs": "testigo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4211
+  },
+  {
+    "lemma": "jury",
+    "meaningEs": "jurado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4213
+  },
+  {
+    "lemma": "juror",
+    "meaningEs": "miembro del jurado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4214
+  },
+  {
+    "lemma": "interpreter",
+    "meaningEs": "intérprete",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4218
+  },
+  {
+    "lemma": "motion",
+    "meaningEs": "moción",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4222
+  },
+  {
+    "lemma": "venue",
+    "meaningEs": "competencia territorial",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4230
+  },
+  {
+    "lemma": "allegation",
+    "meaningEs": "alegación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4233
+  },
+  {
+    "lemma": "trial",
+    "meaningEs": "juicio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4236
+  },
+  {
+    "lemma": "imprisonment",
+    "meaningEs": "prisión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4292
+  },
+  {
+    "lemma": "intent",
+    "meaningEs": "intención",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4310
+  },
+  {
+    "lemma": "necessity",
+    "meaningEs": "necesidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4316
+  },
+  {
+    "lemma": "assault",
+    "meaningEs": "agresión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4328
+  },
+  {
+    "lemma": "burglary",
+    "meaningEs": "robo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4331
+  },
+  {
+    "lemma": "fraud",
+    "meaningEs": "fraude",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4335
+  },
+  {
+    "lemma": "lawsuit",
+    "meaningEs": "demanda",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4342
+  },
+  {
+    "lemma": "dispute",
+    "meaningEs": "disputa",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4344
+  },
+  {
+    "lemma": "harm",
+    "meaningEs": "daño",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4357
+  },
+  {
+    "lemma": "nuisance",
+    "meaningEs": "molestia legal",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4364
+  },
+  {
+    "lemma": "conversion",
+    "meaningEs": "apropiación indebida",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4366
+  },
+  {
+    "lemma": "lease",
+    "meaningEs": "arrendamiento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4376
+  },
+  {
+    "lemma": "mortgage",
+    "meaningEs": "hipoteca",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4386
+  },
+  {
+    "lemma": "invoice",
+    "meaningEs": "factura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 534
+  },
+  {
+    "lemma": "remotely",
+    "meaningEs": "remotamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 796
+  },
+  {
+    "lemma": "citation",
+    "meaningEs": "cita",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 2702
+  },
+  {
+    "lemma": "paywall",
+    "meaningEs": "muro de pago",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 2985
+  },
+  {
+    "lemma": "contractor",
+    "meaningEs": "contratista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3185
+  },
+  {
+    "lemma": "alignment",
+    "meaningEs": "alineación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3246
+  },
+  {
+    "lemma": "coverage",
+    "meaningEs": "cobertura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3274
+  },
+  {
+    "lemma": "constraint",
+    "meaningEs": "restricción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3281
+  },
+  {
+    "lemma": "charter",
+    "meaningEs": "acta del proyecto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3341
+  },
+  {
+    "lemma": "compliance",
+    "meaningEs": "cumplimiento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3345
+  },
+  {
+    "lemma": "carrier",
+    "meaningEs": "transportista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3484
+  },
+  {
+    "lemma": "psychiatrist",
+    "meaningEs": "psiquiatra",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3636
+  },
+  {
+    "lemma": "midwife",
+    "meaningEs": "partera",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3653
+  },
+  {
+    "lemma": "consultation",
+    "meaningEs": "consulta médica",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3667
+  },
+  {
+    "lemma": "relapse",
+    "meaningEs": "recaída",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3686
+  },
+  {
+    "lemma": "fatigue",
+    "meaningEs": "fatiga",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3697
+  },
+  {
+    "lemma": "incision",
+    "meaningEs": "incisión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 3991
+  },
+  {
+    "lemma": "ventilation",
+    "meaningEs": "ventilación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4013
+  },
+  {
+    "lemma": "parasite",
+    "meaningEs": "parásito",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4047
+  },
+  {
+    "lemma": "jurisdiction",
+    "meaningEs": "jurisdicción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4117
+  },
+  {
+    "lemma": "verdict",
+    "meaningEs": "veredicto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4251
+  },
+  {
+    "lemma": "conviction",
+    "meaningEs": "condena",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4302
+  },
+  {
+    "lemma": "inheritance",
+    "meaningEs": "herencia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 4398
+  },
+  {
+    "lemma": "acutely",
+    "meaningEs": "intensamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4610
+  },
+  {
+    "lemma": "aesthetically",
+    "meaningEs": "estéticamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4625
+  },
+  {
+    "lemma": "aimlessly",
+    "meaningEs": "sin rumbo",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4639
+  },
+  {
+    "lemma": "amply",
+    "meaningEs": "ampliamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4667
+  },
+  {
+    "lemma": "artistically",
+    "meaningEs": "artísticamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4716
+  },
+  {
+    "lemma": "astray",
+    "meaningEs": "extraviado",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4727
+  },
+  {
+    "lemma": "beforehand",
+    "meaningEs": "de antemano",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4761
+  },
+  {
+    "lemma": "candidly",
+    "meaningEs": "francamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4793
+  },
+  {
+    "lemma": "cleanly",
+    "meaningEs": "limpiamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4816
+  },
+  {
+    "lemma": "commercially",
+    "meaningEs": "comercialmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4829
+  },
+  {
+    "lemma": "cynically",
+    "meaningEs": "cínicamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4884
+  },
+  {
+    "lemma": "dynamically",
+    "meaningEs": "dinámicamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4951
+  },
+  {
+    "lemma": "enormously",
+    "meaningEs": "enormemente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4977
+  },
+  {
+    "lemma": "ethically",
+    "meaningEs": "éticamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 4992
+  },
+  {
+    "lemma": "fabulously",
+    "meaningEs": "fabulosamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5018
+  },
+  {
+    "lemma": "fiercely",
+    "meaningEs": "fieramente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5036
+  },
+  {
+    "lemma": "hence",
+    "meaningEs": "por lo tanto",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5130
+  },
+  {
+    "lemma": "immensely",
+    "meaningEs": "inmensamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5172
+  },
+  {
+    "lemma": "inexplicably",
+    "meaningEs": "inexplicablemente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5225
+  },
+  {
+    "lemma": "inherently",
+    "meaningEs": "inherentemente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5231
+  },
+  {
+    "lemma": "instinctively",
+    "meaningEs": "instintivamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5244
+  },
+  {
+    "lemma": "intuitively",
+    "meaningEs": "intuitivamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5265
+  },
+  {
+    "lemma": "justly",
+    "meaningEs": "justamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5285
+  },
+  {
+    "lemma": "mutually",
+    "meaningEs": "mutuamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5387
+  },
+  {
+    "lemma": "naively",
+    "meaningEs": "ingenuamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5390
+  },
+  {
+    "lemma": "ordinarily",
+    "meaningEs": "de ordinario",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5445
+  },
+  {
+    "lemma": "phenomenally",
+    "meaningEs": "fenomenalmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5500
+  },
+  {
+    "lemma": "profoundly",
+    "meaningEs": "profundamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5559
+  },
+  {
+    "lemma": "sarcastically",
+    "meaningEs": "sarcásticamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5625
+  },
+  {
+    "lemma": "spontaneously",
+    "meaningEs": "espontáneamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5704
+  },
+  {
+    "lemma": "structurally",
+    "meaningEs": "estructuralmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5719
+  },
+  {
+    "lemma": "substantially",
+    "meaningEs": "sustancialmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5726
+  },
+  {
+    "lemma": "subtly",
+    "meaningEs": "sutilmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5727
+  },
+  {
+    "lemma": "superficially",
+    "meaningEs": "superficialmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5734
+  },
+  {
+    "lemma": "thereby",
+    "meaningEs": "de ese modo",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5778
+  },
+  {
+    "lemma": "viciously",
+    "meaningEs": "brutalmente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5894
+  },
+  {
+    "lemma": "voluntarily",
+    "meaningEs": "voluntariamente",
+    "pos": "adverb",
+    "cefr": "C1",
+    "frequencyRank": 5906
+  },
+  {
+    "lemma": "wicked",
+    "meaningEs": "malvado",
+    "pos": "adjective",
+    "cefr": "C1",
+    "frequencyRank": 5925
+  },
+  {
+    "lemma": "gypsy",
+    "meaningEs": "gitano",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 6352
+  },
+  {
+    "lemma": "spartan",
+    "meaningEs": "espartano",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 6762
+  },
+  {
+    "lemma": "abstraction",
+    "meaningEs": "abstracción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 6974
+  },
+  {
+    "lemma": "acoustic",
+    "meaningEs": "acústica",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7070
+  },
+  {
+    "lemma": "acoustics",
+    "meaningEs": "acústica",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7071
+  },
+  {
+    "lemma": "adrenaline",
+    "meaningEs": "adrenalina",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7180
+  },
+  {
+    "lemma": "adversary",
+    "meaningEs": "adversario",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7201
+  },
+  {
+    "lemma": "altruism",
+    "meaningEs": "altruismo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7484
+  },
+  {
+    "lemma": "amplification",
+    "meaningEs": "amplificación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7565
+  },
+  {
+    "lemma": "anthropologist",
+    "meaningEs": "antropólogo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7777
+  },
+  {
+    "lemma": "anthropology",
+    "meaningEs": "antropología",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7778
+  },
+  {
+    "lemma": "antiquity",
+    "meaningEs": "antigüedad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7859
+  },
+  {
+    "lemma": "appliance",
+    "meaningEs": "aparato",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7956
+  },
+  {
+    "lemma": "apprenticeship",
+    "meaningEs": "aprendizaje",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7967
+  },
+  {
+    "lemma": "aquarium",
+    "meaningEs": "acuario",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 7987
+  },
+  {
+    "lemma": "assertion",
+    "meaningEs": "afirmación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 8199
+  },
+  {
+    "lemma": "batter",
+    "meaningEs": "masa",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 8623
+  },
+  {
+    "lemma": "bliss",
+    "meaningEs": "dicha",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 8942
+  },
+  {
+    "lemma": "blister",
+    "meaningEs": "ampolla",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 8943
+  },
+  {
+    "lemma": "blockbuster",
+    "meaningEs": "bombazo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 8951
+  },
+  {
+    "lemma": "bouquet",
+    "meaningEs": "ramo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9113
+  },
+  {
+    "lemma": "brainwashing",
+    "meaningEs": "lavado de cerebro",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9158
+  },
+  {
+    "lemma": "bribe",
+    "meaningEs": "soborno",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9215
+  },
+  {
+    "lemma": "bribery",
+    "meaningEs": "soborno",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9216
+  },
+  {
+    "lemma": "buffer",
+    "meaningEs": "amortiguador",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9310
+  },
+  {
+    "lemma": "bulk",
+    "meaningEs": "volumen",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9321
+  },
+  {
+    "lemma": "buzzer",
+    "meaningEs": "zumbador",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9411
+  },
+  {
+    "lemma": "bypass",
+    "meaningEs": "circunvalación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9418
+  },
+  {
+    "lemma": "calorie",
+    "meaningEs": "caloría",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9491
+  },
+  {
+    "lemma": "canoe",
+    "meaningEs": "canoa",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9548
+  },
+  {
+    "lemma": "carpenter",
+    "meaningEs": "carpintero",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9654
+  },
+  {
+    "lemma": "carpentry",
+    "meaningEs": "carpintería",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9655
+  },
+  {
+    "lemma": "cavity",
+    "meaningEs": "cavidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9787
+  },
+  {
+    "lemma": "cessation",
+    "meaningEs": "cese",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 9859
+  },
+  {
+    "lemma": "chill",
+    "meaningEs": "escalofrío",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10003
+  },
+  {
+    "lemma": "churn",
+    "meaningEs": "mantequera",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10125
+  },
+  {
+    "lemma": "circulation",
+    "meaningEs": "circulación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10155
+  },
+  {
+    "lemma": "clench",
+    "meaningEs": "apretón",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10235
+  },
+  {
+    "lemma": "cleverness",
+    "meaningEs": "agudeza",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10242
+  },
+  {
+    "lemma": "cloak",
+    "meaningEs": "manto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10267
+  },
+  {
+    "lemma": "closeness",
+    "meaningEs": "intimidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10275
+  },
+  {
+    "lemma": "clutch",
+    "meaningEs": "embrague",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10299
+  },
+  {
+    "lemma": "clutter",
+    "meaningEs": "desorden",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10300
+  },
+  {
+    "lemma": "collaboration",
+    "meaningEs": "colaboración",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10410
+  },
+  {
+    "lemma": "collaborator",
+    "meaningEs": "colaborador",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10411
+  },
+  {
+    "lemma": "commendation",
+    "meaningEs": "elogio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10488
+  },
+  {
+    "lemma": "compulsion",
+    "meaningEs": "compulsión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10568
+  },
+  {
+    "lemma": "con",
+    "meaningEs": "contra",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10574
+  },
+  {
+    "lemma": "concerto",
+    "meaningEs": "concierto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10587
+  },
+  {
+    "lemma": "confinement",
+    "meaningEs": "confinamiento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10631
+  },
+  {
+    "lemma": "conformity",
+    "meaningEs": "conformidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10642
+  },
+  {
+    "lemma": "connoisseur",
+    "meaningEs": "conocedor",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10665
+  },
+  {
+    "lemma": "conservatory",
+    "meaningEs": "conservatorio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10687
+  },
+  {
+    "lemma": "continuity",
+    "meaningEs": "continuidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10734
+  },
+  {
+    "lemma": "convict",
+    "meaningEs": "preso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10775
+  },
+  {
+    "lemma": "corps",
+    "meaningEs": "cuerpo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 10858
+  },
+  {
+    "lemma": "craving",
+    "meaningEs": "ansia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11001
+  },
+  {
+    "lemma": "credibility",
+    "meaningEs": "credibilidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11020
+  },
+  {
+    "lemma": "crumb",
+    "meaningEs": "migaja",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11112
+  },
+  {
+    "lemma": "cynicism",
+    "meaningEs": "cinismo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11282
+  },
+  {
+    "lemma": "darkroom",
+    "meaningEs": "cuarto oscuro",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11354
+  },
+  {
+    "lemma": "demise",
+    "meaningEs": "fallecimiento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11537
+  },
+  {
+    "lemma": "demography",
+    "meaningEs": "demografía",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11547
+  },
+  {
+    "lemma": "demolition",
+    "meaningEs": "demolición",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11548
+  },
+  {
+    "lemma": "depiction",
+    "meaningEs": "representación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11593
+  },
+  {
+    "lemma": "deprivation",
+    "meaningEs": "privación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11602
+  },
+  {
+    "lemma": "descent",
+    "meaningEs": "descenso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11622
+  },
+  {
+    "lemma": "desertion",
+    "meaningEs": "deserción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11629
+  },
+  {
+    "lemma": "detriment",
+    "meaningEs": "detrimento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11669
+  },
+  {
+    "lemma": "devotee",
+    "meaningEs": "devoto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11683
+  },
+  {
+    "lemma": "discourse",
+    "meaningEs": "discurso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11842
+  },
+  {
+    "lemma": "disillusionment",
+    "meaningEs": "desilusión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11865
+  },
+  {
+    "lemma": "dismay",
+    "meaningEs": "consternación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11876
+  },
+  {
+    "lemma": "dispensary",
+    "meaningEs": "dispensario",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11881
+  },
+  {
+    "lemma": "dissection",
+    "meaningEs": "disección",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11900
+  },
+  {
+    "lemma": "divergence",
+    "meaningEs": "divergencia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11936
+  },
+  {
+    "lemma": "diversity",
+    "meaningEs": "diversidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 11939
+  },
+  {
+    "lemma": "domestication",
+    "meaningEs": "domesticación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12008
+  },
+  {
+    "lemma": "duration",
+    "meaningEs": "duración",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12187
+  },
+  {
+    "lemma": "eclectic",
+    "meaningEs": "ecléctico",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12279
+  },
+  {
+    "lemma": "ego",
+    "meaningEs": "ego",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12341
+  },
+  {
+    "lemma": "elaboration",
+    "meaningEs": "elaboración",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12367
+  },
+  {
+    "lemma": "elastic",
+    "meaningEs": "elástico",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12369
+  },
+  {
+    "lemma": "elevation",
+    "meaningEs": "altitud",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12412
+  },
+  {
+    "lemma": "elitist",
+    "meaningEs": "elitista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12422
+  },
+  {
+    "lemma": "endorsement",
+    "meaningEs": "respaldo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12542
+  },
+  {
+    "lemma": "estimation",
+    "meaningEs": "valoración",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12762
+  },
+  {
+    "lemma": "ewe",
+    "meaningEs": "oveja",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12827
+  },
+  {
+    "lemma": "exodus",
+    "meaningEs": "éxodo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12892
+  },
+  {
+    "lemma": "methodology",
+    "meaningEs": "metodología",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2708
+  },
+  {
+    "lemma": "informant",
+    "meaningEs": "informante",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2803
+  },
+  {
+    "lemma": "hypothesis",
+    "meaningEs": "hipótesis",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2814
+  },
+  {
+    "lemma": "correlation",
+    "meaningEs": "correlación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2840
+  },
+  {
+    "lemma": "parameter",
+    "meaningEs": "parámetro",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2868
+  },
+  {
+    "lemma": "anonymity",
+    "meaningEs": "anonimato",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 2996
+  },
+  {
+    "lemma": "recitation",
+    "meaningEs": "clase de repaso",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 3018
+  },
+  {
+    "lemma": "colloquium",
+    "meaningEs": "coloquio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 3109
+  },
+  {
+    "lemma": "accountability",
+    "meaningEs": "rendición de cuentas",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 3336
+  },
+  {
+    "lemma": "requisition",
+    "meaningEs": "requisición",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 3437
+  },
+  {
+    "lemma": "resuscitation",
+    "meaningEs": "reanimación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4010
+  },
+  {
+    "lemma": "contagion",
+    "meaningEs": "contagio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4042
+  },
+  {
+    "lemma": "counsel",
+    "meaningEs": "asesor legal",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4197
+  },
+  {
+    "lemma": "standing",
+    "meaningEs": "legitimación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4229
+  },
+  {
+    "lemma": "concurrence",
+    "meaningEs": "voto concurrente",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4257
+  },
+  {
+    "lemma": "malice",
+    "meaningEs": "malicia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4311
+  },
+  {
+    "lemma": "mediation",
+    "meaningEs": "mediación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4348
+  },
+  {
+    "lemma": "conciliation",
+    "meaningEs": "conciliación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4349
+  },
+  {
+    "lemma": "beneficiary",
+    "meaningEs": "beneficiario",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4394
+  },
+  {
+    "lemma": "subsidy",
+    "meaningEs": "subsidio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 4517
+  },
+  {
+    "lemma": "abundantly",
+    "meaningEs": "abundantemente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 4599
+  },
+  {
+    "lemma": "autonomously",
+    "meaningEs": "autónomamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 4743
+  },
+  {
+    "lemma": "chronologically",
+    "meaningEs": "cronológicamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 4812
+  },
+  {
+    "lemma": "colloquially",
+    "meaningEs": "coloquialmente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 4826
+  },
+  {
+    "lemma": "diligently",
+    "meaningEs": "diligentemente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 4917
+  },
+  {
+    "lemma": "figuratively",
+    "meaningEs": "en sentido figurado",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5039
+  },
+  {
+    "lemma": "hitherto",
+    "meaningEs": "hasta ahora",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5145
+  },
+  {
+    "lemma": "hysterically",
+    "meaningEs": "histéricamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5165
+  },
+  {
+    "lemma": "impeccably",
+    "meaningEs": "impecablemente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5177
+  },
+  {
+    "lemma": "inexorably",
+    "meaningEs": "inexorablemente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5224
+  },
+  {
+    "lemma": "instantaneously",
+    "meaningEs": "instantáneamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5241
+  },
+  {
+    "lemma": "intrinsically",
+    "meaningEs": "intrínsecamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5263
+  },
+  {
+    "lemma": "kinetically",
+    "meaningEs": "cinéticamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5287
+  },
+  {
+    "lemma": "maliciously",
+    "meaningEs": "maliciosamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5337
+  },
+  {
+    "lemma": "meticulously",
+    "meaningEs": "meticulosamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5363
+  },
+  {
+    "lemma": "nigh",
+    "meaningEs": "casi",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5409
+  },
+  {
+    "lemma": "ostensibly",
+    "meaningEs": "ostensiblemente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5452
+  },
+  {
+    "lemma": "painstakingly",
+    "meaningEs": "minuciosamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5466
+  },
+  {
+    "lemma": "paradoxically",
+    "meaningEs": "paradójicamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5468
+  },
+  {
+    "lemma": "physiologically",
+    "meaningEs": "fisiológicamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5508
+  },
+  {
+    "lemma": "proportionally",
+    "meaningEs": "proporcionalmente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5566
+  },
+  {
+    "lemma": "rife",
+    "meaningEs": "abundante",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 5612
+  },
+  {
+    "lemma": "summarily",
+    "meaningEs": "sumariamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5733
+  },
+  {
+    "lemma": "surreptitiously",
+    "meaningEs": "a hurtadillas",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5742
+  },
+  {
+    "lemma": "tacitly",
+    "meaningEs": "tácitamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5754
+  },
+  {
+    "lemma": "unequivocally",
+    "meaningEs": "inequívocamente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5844
+  },
+  {
+    "lemma": "verbatim",
+    "meaningEs": "literalmente",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5889
+  },
+  {
+    "lemma": "verily",
+    "meaningEs": "de veras",
+    "pos": "adverb",
+    "cefr": "C2",
+    "frequencyRank": 5890
+  },
+  {
+    "lemma": "moor",
+    "meaningEs": "moro",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 6547
+  },
+  {
+    "lemma": "vandal",
+    "meaningEs": "vándalo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 6850
+  },
+  {
+    "lemma": "aberration",
+    "meaningEs": "aberración",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 6922
+  },
+  {
+    "lemma": "acrobatics",
+    "meaningEs": "acrobacia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7080
+  },
+  {
+    "lemma": "additive",
+    "meaningEs": "aditivo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7130
+  },
+  {
+    "lemma": "adept",
+    "meaningEs": "experto",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7146
+  },
+  {
+    "lemma": "adhesion",
+    "meaningEs": "adhesión",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7150
+  },
+  {
+    "lemma": "agility",
+    "meaningEs": "agilidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7291
+  },
+  {
+    "lemma": "allegory",
+    "meaningEs": "alegoría",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7426
+  },
+  {
+    "lemma": "allotment",
+    "meaningEs": "asignación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7444
+  },
+  {
+    "lemma": "allusion",
+    "meaningEs": "alusión",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7450
+  },
+  {
+    "lemma": "angst",
+    "meaningEs": "angustia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7684
+  },
+  {
+    "lemma": "anthology",
+    "meaningEs": "antología",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7765
+  },
+  {
+    "lemma": "antidote",
+    "meaningEs": "antídoto",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7821
+  },
+  {
+    "lemma": "antithesis",
+    "meaningEs": "antítesis",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7871
+  },
+  {
+    "lemma": "aptitude",
+    "meaningEs": "aptitud",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 7975
+  },
+  {
+    "lemma": "archetype",
+    "meaningEs": "arquetipo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8036
+  },
+  {
+    "lemma": "articulation",
+    "meaningEs": "articulación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8140
+  },
+  {
+    "lemma": "artifact",
+    "meaningEs": "artefacto",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8141
+  },
+  {
+    "lemma": "assimilation",
+    "meaningEs": "asimilación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8207
+  },
+  {
+    "lemma": "attrition",
+    "meaningEs": "desgaste",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8295
+  },
+  {
+    "lemma": "austerity",
+    "meaningEs": "austeridad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8324
+  },
+  {
+    "lemma": "authenticity",
+    "meaningEs": "autenticidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8330
+  },
+  {
+    "lemma": "autopilot",
+    "meaningEs": "piloto automático",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8363
+  },
+  {
+    "lemma": "axiom",
+    "meaningEs": "axioma",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8404
+  },
+  {
+    "lemma": "babble",
+    "meaningEs": "balbuceo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8417
+  },
+  {
+    "lemma": "banishment",
+    "meaningEs": "exilio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8527
+  },
+  {
+    "lemma": "blitz",
+    "meaningEs": "ataque relámpago",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 8944
+  },
+  {
+    "lemma": "bout",
+    "meaningEs": "racha",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9116
+  },
+  {
+    "lemma": "breadwinner",
+    "meaningEs": "cabeza de familia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9183
+  },
+  {
+    "lemma": "brevity",
+    "meaningEs": "brevedad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9210
+  },
+  {
+    "lemma": "brood",
+    "meaningEs": "cría",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9268
+  },
+  {
+    "lemma": "burgeoning",
+    "meaningEs": "floreciente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 9360
+  },
+  {
+    "lemma": "buzzard",
+    "meaningEs": "ratonero",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9410
+  },
+  {
+    "lemma": "calamity",
+    "meaningEs": "calamidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 9460
+  },
+  {
+    "lemma": "choreography",
+    "meaningEs": "coreografía",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10076
+  },
+  {
+    "lemma": "chronology",
+    "meaningEs": "cronología",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10104
+  },
+  {
+    "lemma": "chrysalis",
+    "meaningEs": "crisálida",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10109
+  },
+  {
+    "lemma": "cinematography",
+    "meaningEs": "cinematografía",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10147
+  },
+  {
+    "lemma": "cloister",
+    "meaningEs": "claustro",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10274
+  },
+  {
+    "lemma": "cocoon",
+    "meaningEs": "capullo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10355
+  },
+  {
+    "lemma": "collider",
+    "meaningEs": "colisionador",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10426
+  },
+  {
+    "lemma": "commodity",
+    "meaningEs": "artículo de consumo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10502
+  },
+  {
+    "lemma": "condensation",
+    "meaningEs": "condensación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10606
+  },
+  {
+    "lemma": "conduit",
+    "meaningEs": "conducto",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10618
+  },
+  {
+    "lemma": "conjecture",
+    "meaningEs": "conjetura",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10653
+  },
+  {
+    "lemma": "connotation",
+    "meaningEs": "connotación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10666
+  },
+  {
+    "lemma": "consignment",
+    "meaningEs": "envío",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10690
+  },
+  {
+    "lemma": "consternation",
+    "meaningEs": "consternación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 10703
+  },
+  {
+    "lemma": "crony",
+    "meaningEs": "compinche",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11069
+  },
+  {
+    "lemma": "curate",
+    "meaningEs": "vicario",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11199
+  },
+  {
+    "lemma": "curator",
+    "meaningEs": "curador",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11200
+  },
+  {
+    "lemma": "depravity",
+    "meaningEs": "depravación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11600
+  },
+  {
+    "lemma": "derelict",
+    "meaningEs": "vagabundo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11611
+  },
+  {
+    "lemma": "derision",
+    "meaningEs": "burla",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11613
+  },
+  {
+    "lemma": "dissemination",
+    "meaningEs": "difusión",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11901
+  },
+  {
+    "lemma": "distillation",
+    "meaningEs": "destilación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11914
+  },
+  {
+    "lemma": "divination",
+    "meaningEs": "adivinación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 11948
+  },
+  {
+    "lemma": "dribble",
+    "meaningEs": "regate",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12091
+  },
+  {
+    "lemma": "eccentricity",
+    "meaningEs": "excentricidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12267
+  },
+  {
+    "lemma": "echo",
+    "meaningEs": "eco",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12273
+  },
+  {
+    "lemma": "edifice",
+    "meaningEs": "edificio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12314
+  },
+  {
+    "lemma": "elasticity",
+    "meaningEs": "elasticidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12370
+  },
+  {
+    "lemma": "elation",
+    "meaningEs": "euforia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12373
+  },
+  {
+    "lemma": "electrode",
+    "meaningEs": "electrodo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12388
+  },
+  {
+    "lemma": "embodiment",
+    "meaningEs": "encarnación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12442
+  },
+  {
+    "lemma": "eminence",
+    "meaningEs": "eminencia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12462
+  },
+  {
+    "lemma": "enabler",
+    "meaningEs": "facilitador",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12491
+  },
+  {
+    "lemma": "equilibrium",
+    "meaningEs": "equilibrio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12692
+  },
+  {
+    "lemma": "euphemism",
+    "meaningEs": "eufemismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12803
+  },
+  {
+    "lemma": "euphoria",
+    "meaningEs": "euforia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12806
+  },
+  {
+    "lemma": "exorcism",
+    "meaningEs": "exorcismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12902
+  },
+  {
+    "lemma": "exorcist",
+    "meaningEs": "exorcista",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12903
+  },
+  {
+    "lemma": "fabrication",
+    "meaningEs": "fabricación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 12992
+  },
+  {
+    "lemma": "fallacy",
+    "meaningEs": "falacia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 13030
+  },
+  {
+    "lemma": "fete",
+    "meaningEs": "feria",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 13181
+  },
+  {
+    "lemma": "fluctuation",
+    "meaningEs": "fluctuación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 13392
+  },
+  {
+    "lemma": "frolic",
+    "meaningEs": "jugueteo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 13605
+  },
+  {
+    "lemma": "gambit",
+    "meaningEs": "gambito",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 13724
+  },
+  {
+    "lemma": "gout",
+    "meaningEs": "gota",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14090
+  },
+  {
+    "lemma": "grievance",
+    "meaningEs": "agravio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14197
+  },
+  {
+    "lemma": "habitation",
+    "meaningEs": "vivienda",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14342
+  },
+  {
+    "lemma": "hamper",
+    "meaningEs": "canasta",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14419
+  },
+  {
+    "lemma": "herald",
+    "meaningEs": "heraldo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14670
+  },
+  {
+    "lemma": "hermit",
+    "meaningEs": "ermitaño",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14691
+  },
+  {
+    "lemma": "hindrance",
+    "meaningEs": "obstáculo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14775
+  },
+  {
+    "lemma": "hindsight",
+    "meaningEs": "retrospectiva",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14776
+  },
+  {
+    "lemma": "hitch",
+    "meaningEs": "contratiempo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14803
+  },
+  {
+    "lemma": "hoist",
+    "meaningEs": "aparejo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14826
+  },
+  {
+    "lemma": "huddle",
+    "meaningEs": "tropel",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14968
+  },
+  {
+    "lemma": "hull",
+    "meaningEs": "casco",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 14972
+  },
+  {
+    "lemma": "hysteria",
+    "meaningEs": "histeria",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15155
+  },
+  {
+    "lemma": "imposition",
+    "meaningEs": "imposición",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15307
+  },
+  {
+    "lemma": "indiscretion",
+    "meaningEs": "indiscreción",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15390
+  },
+  {
+    "lemma": "individualism",
+    "meaningEs": "individualismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15394
+  },
+  {
+    "lemma": "indulgence",
+    "meaningEs": "indulgencia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15407
+  },
+  {
+    "lemma": "infallibility",
+    "meaningEs": "infalibilidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15423
+  },
+  {
+    "lemma": "innuendo",
+    "meaningEs": "insinuación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15498
+  },
+  {
+    "lemma": "integration",
+    "meaningEs": "integración",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15565
+  },
+  {
+    "lemma": "interlude",
+    "meaningEs": "interludio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15603
+  },
+  {
+    "lemma": "intermediary",
+    "meaningEs": "intermediario",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15604
+  },
+  {
+    "lemma": "interrogation",
+    "meaningEs": "interrogatorio",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15623
+  },
+  {
+    "lemma": "estate",
+    "meaningEs": "herencia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4390
+  },
+  {
+    "lemma": "trust",
+    "meaningEs": "fideicomiso",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4392
+  },
+  {
+    "lemma": "divorce",
+    "meaningEs": "divorcio",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4405
+  },
+  {
+    "lemma": "adoption",
+    "meaningEs": "adopción",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4412
+  },
+  {
+    "lemma": "bankruptcy",
+    "meaningEs": "quiebra",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4416
+  },
+  {
+    "lemma": "equity",
+    "meaningEs": "equidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4424
+  },
+  {
+    "lemma": "state",
+    "meaningEs": "estado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4432
+  },
+  {
+    "lemma": "bureaucracy",
+    "meaningEs": "burocracia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4446
+  },
+  {
+    "lemma": "commission",
+    "meaningEs": "comisión",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4452
+  },
+  {
+    "lemma": "minister",
+    "meaningEs": "ministro",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4464
+  },
+  {
+    "lemma": "ambassador",
+    "meaningEs": "embajador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4466
+  },
+  {
+    "lemma": "diplomat",
+    "meaningEs": "diplomático",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4468
+  },
+  {
+    "lemma": "legislature",
+    "meaningEs": "legislatura",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4469
+  },
+  {
+    "lemma": "parliament",
+    "meaningEs": "parlamento",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4470
+  },
+  {
+    "lemma": "assembly",
+    "meaningEs": "asamblea",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4476
+  },
+  {
+    "lemma": "whip",
+    "meaningEs": "coordinador parlamentario",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4484
+  },
+  {
+    "lemma": "legislator",
+    "meaningEs": "legislador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4487
+  },
+  {
+    "lemma": "senator",
+    "meaningEs": "senador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4488
+  },
+  {
+    "lemma": "delegate",
+    "meaningEs": "delegado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4490
+  },
+  {
+    "lemma": "resolution",
+    "meaningEs": "resolución",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4492
+  },
+  {
+    "lemma": "rider",
+    "meaningEs": "cláusula adicional",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4495
+  },
+  {
+    "lemma": "clause",
+    "meaningEs": "cláusula",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4497
+  },
+  {
+    "lemma": "provision",
+    "meaningEs": "disposición",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4498
+  },
+  {
+    "lemma": "tender",
+    "meaningEs": "licitación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4516
+  },
+  {
+    "lemma": "province",
+    "meaningEs": "provincia",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4522
+  },
+  {
+    "lemma": "embassy",
+    "meaningEs": "embajada",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4529
+  },
+  {
+    "lemma": "treaty",
+    "meaningEs": "tratado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4531
+  },
+  {
+    "lemma": "convention",
+    "meaningEs": "convención",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4532
+  },
+  {
+    "lemma": "alliance",
+    "meaningEs": "alianza",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4534
+  },
+  {
+    "lemma": "ballot",
+    "meaningEs": "boleta electoral",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4550
+  },
+  {
+    "lemma": "voter",
+    "meaningEs": "votante",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4552
+  },
+  {
+    "lemma": "campaign",
+    "meaningEs": "campaña electoral",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4555
+  },
+  {
+    "lemma": "initiative",
+    "meaningEs": "iniciativa",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4557
+  },
+  {
+    "lemma": "abnormally",
+    "meaningEs": "anormalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4586
+  },
+  {
+    "lemma": "abruptly",
+    "meaningEs": "abruptamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4594
+  },
+  {
+    "lemma": "accordingly",
+    "meaningEs": "en consecuencia",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4603
+  },
+  {
+    "lemma": "additionally",
+    "meaningEs": "adicionalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4614
+  },
+  {
+    "lemma": "adequately",
+    "meaningEs": "adecuadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4615
+  },
+  {
+    "lemma": "admittedly",
+    "meaningEs": "ciertamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4619
+  },
+  {
+    "lemma": "adversely",
+    "meaningEs": "adversamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4623
+  },
+  {
+    "lemma": "affectionately",
+    "meaningEs": "afectuosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4627
+  },
+  {
+    "lemma": "aggressively",
+    "meaningEs": "agresivamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4634
+  },
+  {
+    "lemma": "alongside",
+    "meaningEs": "junto a",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4651
+  },
+  {
+    "lemma": "alternatively",
+    "meaningEs": "alternativamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4658
+  },
+  {
+    "lemma": "amazingly",
+    "meaningEs": "asombrosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4661
+  },
+  {
+    "lemma": "appropriately",
+    "meaningEs": "apropiadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4700
+  },
+  {
+    "lemma": "artificially",
+    "meaningEs": "artificialmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4714
+  },
+  {
+    "lemma": "bitterly",
+    "meaningEs": "amargamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4775
+  },
+  {
+    "lemma": "blindly",
+    "meaningEs": "ciegamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4778
+  },
+  {
+    "lemma": "brilliantly",
+    "meaningEs": "brillantemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4785
+  },
+  {
+    "lemma": "calmly",
+    "meaningEs": "tranquilamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4792
+  },
+  {
+    "lemma": "comfortably",
+    "meaningEs": "cómodamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4827
+  },
+  {
+    "lemma": "confidently",
+    "meaningEs": "con confianza",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4841
+  },
+  {
+    "lemma": "considerably",
+    "meaningEs": "considerablemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4849
+  },
+  {
+    "lemma": "conveniently",
+    "meaningEs": "convenientemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4860
+  },
+  {
+    "lemma": "conversely",
+    "meaningEs": "a la inversa",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4862
+  },
+  {
+    "lemma": "counter",
+    "meaningEs": "mostrador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 4870
+  },
+  {
+    "lemma": "cowardly",
+    "meaningEs": "cobarde",
+    "pos": "adjective",
+    "cefr": "B2",
+    "frequencyRank": 4873
+  },
+  {
+    "lemma": "creatively",
+    "meaningEs": "creativamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4876
+  },
+  {
+    "lemma": "critically",
+    "meaningEs": "críticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4878
+  },
+  {
+    "lemma": "cruelly",
+    "meaningEs": "cruelmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4880
+  },
+  {
+    "lemma": "culturally",
+    "meaningEs": "culturalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4881
+  },
+  {
+    "lemma": "deliberately",
+    "meaningEs": "deliberadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4896
+  },
+  {
+    "lemma": "delicately",
+    "meaningEs": "delicadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4897
+  },
+  {
+    "lemma": "densely",
+    "meaningEs": "densamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4900
+  },
+  {
+    "lemma": "desperately",
+    "meaningEs": "desesperadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4905
+  },
+  {
+    "lemma": "doubly",
+    "meaningEs": "doblemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4934
+  },
+  {
+    "lemma": "dramatically",
+    "meaningEs": "dramáticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4944
+  },
+  {
+    "lemma": "eagerly",
+    "meaningEs": "ansiosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4953
+  },
+  {
+    "lemma": "ecologically",
+    "meaningEs": "ecológicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4959
+  },
+  {
+    "lemma": "electronically",
+    "meaningEs": "electrónicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4969
+  },
+  {
+    "lemma": "elegantly",
+    "meaningEs": "elegantemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4970
+  },
+  {
+    "lemma": "emphatically",
+    "meaningEs": "enfáticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4974
+  },
+  {
+    "lemma": "enthusiastically",
+    "meaningEs": "con entusiasmo",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4979
+  },
+  {
+    "lemma": "environmentally",
+    "meaningEs": "ambientalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4982
+  },
+  {
+    "lemma": "essentially",
+    "meaningEs": "esencialmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4990
+  },
+  {
+    "lemma": "eternally",
+    "meaningEs": "eternamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4991
+  },
+  {
+    "lemma": "evidently",
+    "meaningEs": "evidentemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 4999
+  },
+  {
+    "lemma": "exceptionally",
+    "meaningEs": "excepcionalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5002
+  },
+  {
+    "lemma": "exclusively",
+    "meaningEs": "exclusivamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5004
+  },
+  {
+    "lemma": "extraordinarily",
+    "meaningEs": "extraordinariamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5015
+  },
+  {
+    "lemma": "fantastically",
+    "meaningEs": "fantásticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5027
+  },
+  {
+    "lemma": "far",
+    "meaningEs": "lejos",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5028
+  },
+  {
+    "lemma": "financially",
+    "meaningEs": "financieramente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5041
+  },
+  {
+    "lemma": "firstly",
+    "meaningEs": "primeramente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5044
+  },
+  {
+    "lemma": "forcefully",
+    "meaningEs": "enérgicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5052
+  },
+  {
+    "lemma": "formerly",
+    "meaningEs": "anteriormente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5058
+  },
+  {
+    "lemma": "frankly",
+    "meaningEs": "francamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5069
+  },
+  {
+    "lemma": "frantically",
+    "meaningEs": "desesperadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5070
+  },
+  {
+    "lemma": "furiously",
+    "meaningEs": "furiosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5081
+  },
+  {
+    "lemma": "generously",
+    "meaningEs": "generosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5088
+  },
+  {
+    "lemma": "gently",
+    "meaningEs": "suavemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5091
+  },
+  {
+    "lemma": "genuinely",
+    "meaningEs": "genuinamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5092
+  },
+  {
+    "lemma": "globally",
+    "meaningEs": "globalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5099
+  },
+  {
+    "lemma": "hastily",
+    "meaningEs": "apresuradamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5122
+  },
+  {
+    "lemma": "homeward",
+    "meaningEs": "a casa",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5148
+  },
+  {
+    "lemma": "ideally",
+    "meaningEs": "idealmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5166
+  },
+  {
+    "lemma": "impatiently",
+    "meaningEs": "impacientemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5176
+  },
+  {
+    "lemma": "improperly",
+    "meaningEs": "impropiamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5189
+  },
+  {
+    "lemma": "independently",
+    "meaningEs": "independientemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5211
+  },
+  {
+    "lemma": "innocently",
+    "meaningEs": "inocentemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5232
+  },
+  {
+    "lemma": "inside",
+    "meaningEs": "dentro",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5236
+  },
+  {
+    "lemma": "instantly",
+    "meaningEs": "instantáneamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5242
+  },
+  {
+    "lemma": "invariably",
+    "meaningEs": "invariablemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5266
+  },
+  {
+    "lemma": "ironically",
+    "meaningEs": "irónicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5272
+  },
+  {
+    "lemma": "jealously",
+    "meaningEs": "celosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5280
+  },
+  {
+    "lemma": "knowingly",
+    "meaningEs": "a sabiendas",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5289
+  },
+  {
+    "lemma": "lastly",
+    "meaningEs": "por último",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5294
+  },
+  {
+    "lemma": "likewise",
+    "meaningEs": "del mismo modo",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5311
+  },
+  {
+    "lemma": "literally",
+    "meaningEs": "literalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5312
+  },
+  {
+    "lemma": "loosely",
+    "meaningEs": "vagamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5319
+  },
+  {
+    "lemma": "morally",
+    "meaningEs": "moralmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5377
+  },
+  {
+    "lemma": "necessarily",
+    "meaningEs": "necesariamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5398
+  },
+  {
+    "lemma": "negatively",
+    "meaningEs": "negativamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5400
+  },
+  {
+    "lemma": "nervously",
+    "meaningEs": "nerviosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5403
+  },
+  {
+    "lemma": "nicely",
+    "meaningEs": "bien",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5408
+  },
+  {
+    "lemma": "offhand",
+    "meaningEs": "de improviso",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5429
+  },
+  {
+    "lemma": "offshore",
+    "meaningEs": "alejado de la costa",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5431
+  },
+  {
+    "lemma": "originally",
+    "meaningEs": "originalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5448
+  },
+  {
+    "lemma": "outside",
+    "meaningEs": "fuera",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5457
+  },
+  {
+    "lemma": "outwardly",
+    "meaningEs": "exteriormente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5458
+  },
+  {
+    "lemma": "overall",
+    "meaningEs": "en general",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5460
+  },
+  {
+    "lemma": "overly",
+    "meaningEs": "excesivamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5461
+  },
+  {
+    "lemma": "passionately",
+    "meaningEs": "apasionadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5473
+  },
+  {
+    "lemma": "patiently",
+    "meaningEs": "pacientemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5478
+  },
+  {
+    "lemma": "peacefully",
+    "meaningEs": "pacíficamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5480
+  },
+  {
+    "lemma": "politically",
+    "meaningEs": "políticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5526
+  },
+  {
+    "lemma": "potentially",
+    "meaningEs": "potencialmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5532
+  },
+  {
+    "lemma": "powerfully",
+    "meaningEs": "poderosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5533
+  },
+  {
+    "lemma": "practically",
+    "meaningEs": "prácticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5534
+  },
+  {
+    "lemma": "precisely",
+    "meaningEs": "precisamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5539
+  },
+  {
+    "lemma": "preferably",
+    "meaningEs": "preferiblemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5543
+  },
+  {
+    "lemma": "privately",
+    "meaningEs": "privadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5554
+  },
+  {
+    "lemma": "promptly",
+    "meaningEs": "con prontitud",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5563
+  },
+  {
+    "lemma": "proudly",
+    "meaningEs": "orgullosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5567
+  },
+  {
+    "lemma": "psychologically",
+    "meaningEs": "psicológicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5572
+  },
+  {
+    "lemma": "radically",
+    "meaningEs": "radicalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5584
+  },
+  {
+    "lemma": "readily",
+    "meaningEs": "fácilmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5589
+  },
+  {
+    "lemma": "reasonably",
+    "meaningEs": "razonablemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5591
+  },
+  {
+    "lemma": "regardless",
+    "meaningEs": "igualmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5595
+  },
+  {
+    "lemma": "regrettably",
+    "meaningEs": "lamentablemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5597
+  },
+  {
+    "lemma": "scarcely",
+    "meaningEs": "apenas",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5630
+  },
+  {
+    "lemma": "scientifically",
+    "meaningEs": "científicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5633
+  },
+  {
+    "lemma": "secondly",
+    "meaningEs": "en segundo lugar",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5639
+  },
+  {
+    "lemma": "seldom",
+    "meaningEs": "raramente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5644
+  },
+  {
+    "lemma": "significantly",
+    "meaningEs": "significativamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5664
+  },
+  {
+    "lemma": "somewhat",
+    "meaningEs": "algo",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5690
+  },
+  {
+    "lemma": "specifically",
+    "meaningEs": "específicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5698
+  },
+  {
+    "lemma": "straightforward",
+    "meaningEs": "directamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5714
+  },
+  {
+    "lemma": "strictly",
+    "meaningEs": "estrictamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5717
+  },
+  {
+    "lemma": "stubbornly",
+    "meaningEs": "obstinadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5720
+  },
+  {
+    "lemma": "sufficiently",
+    "meaningEs": "suficientemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5731
+  },
+  {
+    "lemma": "suitably",
+    "meaningEs": "apropiadamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5732
+  },
+  {
+    "lemma": "suspiciously",
+    "meaningEs": "sospechosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5743
+  },
+  {
+    "lemma": "technically",
+    "meaningEs": "técnicamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5759
+  },
+  {
+    "lemma": "temporarily",
+    "meaningEs": "temporalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5764
+  },
+  {
+    "lemma": "tenderly",
+    "meaningEs": "tiernamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5766
+  },
+  {
+    "lemma": "thereafter",
+    "meaningEs": "a partir de entonces",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5777
+  },
+  {
+    "lemma": "thoroughly",
+    "meaningEs": "completamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5785
+  },
+  {
+    "lemma": "ultimately",
+    "meaningEs": "en última instancia",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5818
+  },
+  {
+    "lemma": "uncomfortably",
+    "meaningEs": "incómodamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5831
+  },
+  {
+    "lemma": "underneath",
+    "meaningEs": "debajo",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5839
+  },
+  {
+    "lemma": "undoubtedly",
+    "meaningEs": "sin duda",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5842
+  },
+  {
+    "lemma": "unjustly",
+    "meaningEs": "injustamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5858
+  },
+  {
+    "lemma": "unmistakably",
+    "meaningEs": "inconfundiblemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5861
+  },
+  {
+    "lemma": "upright",
+    "meaningEs": "verticalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5875
+  },
+  {
+    "lemma": "urgently",
+    "meaningEs": "urgentemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5879
+  },
+  {
+    "lemma": "verbally",
+    "meaningEs": "verbalmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5888
+  },
+  {
+    "lemma": "vigorously",
+    "meaningEs": "vigorosamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5897
+  },
+  {
+    "lemma": "virtually",
+    "meaningEs": "prácticamente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5899
+  },
+  {
+    "lemma": "visibly",
+    "meaningEs": "visiblemente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5901
+  },
+  {
+    "lemma": "weakly",
+    "meaningEs": "débilmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5909
+  },
+  {
+    "lemma": "worldwide",
+    "meaningEs": "mundialmente",
+    "pos": "adverb",
+    "cefr": "B2",
+    "frequencyRank": 5934
+  },
+  {
+    "lemma": "muse",
+    "meaningEs": "musa",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 6551
+  },
+  {
+    "lemma": "olympiad",
+    "meaningEs": "olimpíada",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 6594
+  },
+  {
+    "lemma": "soviet",
+    "meaningEs": "soviético",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 6756
+  },
+  {
+    "lemma": "absurd",
+    "meaningEs": "absurdo",
+    "pos": "adjective",
+    "cefr": "B2",
+    "frequencyRank": 6977
+  },
+  {
+    "lemma": "abuse",
+    "meaningEs": "abuso",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 6982
+  },
+  {
+    "lemma": "accessibility",
+    "meaningEs": "accesibilidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7006
+  },
+  {
+    "lemma": "accommodation",
+    "meaningEs": "hospedaje",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7013
+  },
+  {
+    "lemma": "accusation",
+    "meaningEs": "acusación",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7027
+  },
+  {
+    "lemma": "acid",
+    "meaningEs": "ácido",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7058
+  },
+  {
+    "lemma": "acquisition",
+    "meaningEs": "adquisición",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7074
+  },
+  {
+    "lemma": "addict",
+    "meaningEs": "adicto",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7127
+  },
+  {
+    "lemma": "addiction",
+    "meaningEs": "adicción",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7128
+  },
+  {
+    "lemma": "advancement",
+    "meaningEs": "progreso",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7193
+  },
+  {
+    "lemma": "adversity",
+    "meaningEs": "adversidad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7202
+  },
+  {
+    "lemma": "agony",
+    "meaningEs": "agonía",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7302
+  },
+  {
+    "lemma": "alcoholism",
+    "meaningEs": "alcoholismo",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7370
+  },
+  {
+    "lemma": "ally",
+    "meaningEs": "aliado",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7451
+  },
+  {
+    "lemma": "alternate",
+    "meaningEs": "sustituto",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7474
+  },
+  {
+    "lemma": "altitude",
+    "meaningEs": "altitud",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7479
+  },
+  {
+    "lemma": "amazement",
+    "meaningEs": "asombro",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7504
+  },
+  {
+    "lemma": "ambiguity",
+    "meaningEs": "ambigüedad",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7509
+  },
+  {
+    "lemma": "ammonia",
+    "meaningEs": "amoníaco",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7544
+  },
+  {
+    "lemma": "amplifier",
+    "meaningEs": "amplificador",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7566
+  },
+  {
+    "lemma": "analogy",
+    "meaningEs": "analogía",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7600
+  },
+  {
+    "lemma": "analyst",
+    "meaningEs": "analista",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7603
+  },
+  {
+    "lemma": "anchor",
+    "meaningEs": "ancla",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7628
+  },
+  {
+    "lemma": "anchorage",
+    "meaningEs": "fondeadero",
+    "pos": "noun",
+    "cefr": "B2",
+    "frequencyRank": 7629
+  },
+  {
+    "lemma": "exploitation",
+    "meaningEs": "explotación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12929
+  },
+  {
+    "lemma": "exterior",
+    "meaningEs": "exterior",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12949
+  },
+  {
+    "lemma": "extortion",
+    "meaningEs": "extorsión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12956
+  },
+  {
+    "lemma": "extravagance",
+    "meaningEs": "extravagancia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12962
+  },
+  {
+    "lemma": "exuberance",
+    "meaningEs": "exuberancia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 12970
+  },
+  {
+    "lemma": "facilitation",
+    "meaningEs": "facilitación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13001
+  },
+  {
+    "lemma": "faction",
+    "meaningEs": "facción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13005
+  },
+  {
+    "lemma": "fanatic",
+    "meaningEs": "fanático",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13047
+  },
+  {
+    "lemma": "farce",
+    "meaningEs": "farsa",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13061
+  },
+  {
+    "lemma": "fiend",
+    "meaningEs": "demonio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13218
+  },
+  {
+    "lemma": "firewall",
+    "meaningEs": "muro cortafuego",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13269
+  },
+  {
+    "lemma": "fissure",
+    "meaningEs": "fisura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13294
+  },
+  {
+    "lemma": "fixture",
+    "meaningEs": "accesorio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13303
+  },
+  {
+    "lemma": "flashback",
+    "meaningEs": "analepsis",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13322
+  },
+  {
+    "lemma": "flask",
+    "meaningEs": "petaca",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13325
+  },
+  {
+    "lemma": "flatter",
+    "meaningEs": "adular",
+    "pos": "verb",
+    "cefr": "C1",
+    "frequencyRank": 13331
+  },
+  {
+    "lemma": "flattery",
+    "meaningEs": "halago",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13333
+  },
+  {
+    "lemma": "flick",
+    "meaningEs": "capirotazo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13358
+  },
+  {
+    "lemma": "flicker",
+    "meaningEs": "parpadeo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13359
+  },
+  {
+    "lemma": "forfeit",
+    "meaningEs": "penalización",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13494
+  },
+  {
+    "lemma": "formality",
+    "meaningEs": "formalidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13506
+  },
+  {
+    "lemma": "fraction",
+    "meaningEs": "fracción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13544
+  },
+  {
+    "lemma": "fragmentation",
+    "meaningEs": "fragmentación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13548
+  },
+  {
+    "lemma": "fuse",
+    "meaningEs": "mecha",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13666
+  },
+  {
+    "lemma": "fusion",
+    "meaningEs": "fusión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13672
+  },
+  {
+    "lemma": "gadget",
+    "meaningEs": "aparato",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13687
+  },
+  {
+    "lemma": "gem",
+    "meaningEs": "gema",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13816
+  },
+  {
+    "lemma": "genome",
+    "meaningEs": "genoma",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13843
+  },
+  {
+    "lemma": "gig",
+    "meaningEs": "bolo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 13914
+  },
+  {
+    "lemma": "goose",
+    "meaningEs": "ganso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14071
+  },
+  {
+    "lemma": "gourmet",
+    "meaningEs": "gourmet",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14089
+  },
+  {
+    "lemma": "graft",
+    "meaningEs": "injerto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14100
+  },
+  {
+    "lemma": "grapefruit",
+    "meaningEs": "pomelo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14129
+  },
+  {
+    "lemma": "grumble",
+    "meaningEs": "queja",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14252
+  },
+  {
+    "lemma": "hack",
+    "meaningEs": "hackeo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14345
+  },
+  {
+    "lemma": "harassment",
+    "meaningEs": "acoso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14456
+  },
+  {
+    "lemma": "hedgehog",
+    "meaningEs": "erizo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14573
+  },
+  {
+    "lemma": "heifer",
+    "meaningEs": "vaquilla",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14584
+  },
+  {
+    "lemma": "heroine",
+    "meaningEs": "heroína",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14696
+  },
+  {
+    "lemma": "hibernation",
+    "meaningEs": "hibernación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14742
+  },
+  {
+    "lemma": "hostess",
+    "meaningEs": "anfitriona",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14941
+  },
+  {
+    "lemma": "hostility",
+    "meaningEs": "hostilidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 14942
+  },
+  {
+    "lemma": "hypocrisy",
+    "meaningEs": "hipocresía",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15126
+  },
+  {
+    "lemma": "hypocrite",
+    "meaningEs": "hipócrita",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15127
+  },
+  {
+    "lemma": "imp",
+    "meaningEs": "diablillo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15276
+  },
+  {
+    "lemma": "impediment",
+    "meaningEs": "estorbo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15284
+  },
+  {
+    "lemma": "inclusion",
+    "meaningEs": "inclusión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15359
+  },
+  {
+    "lemma": "individuality",
+    "meaningEs": "individualidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15396
+  },
+  {
+    "lemma": "induction",
+    "meaningEs": "inducción",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15405
+  },
+  {
+    "lemma": "ingenuity",
+    "meaningEs": "ingenio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15467
+  },
+  {
+    "lemma": "injustice",
+    "meaningEs": "injusticia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15483
+  },
+  {
+    "lemma": "insubordination",
+    "meaningEs": "insubordinación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15549
+  },
+  {
+    "lemma": "intellect",
+    "meaningEs": "intelecto",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15569
+  },
+  {
+    "lemma": "intuition",
+    "meaningEs": "intuición",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15653
+  },
+  {
+    "lemma": "irony",
+    "meaningEs": "ironía",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15696
+  },
+  {
+    "lemma": "isolate",
+    "meaningEs": "aislado",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15722
+  },
+  {
+    "lemma": "itinerary",
+    "meaningEs": "itinerario",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 15741
+  },
+  {
+    "lemma": "legacy",
+    "meaningEs": "legado",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16237
+  },
+  {
+    "lemma": "lethargy",
+    "meaningEs": "letargo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16280
+  },
+  {
+    "lemma": "liaison",
+    "meaningEs": "aventura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16305
+  },
+  {
+    "lemma": "likelihood",
+    "meaningEs": "probabilidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16358
+  },
+  {
+    "lemma": "loom",
+    "meaningEs": "telar",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16521
+  },
+  {
+    "lemma": "lust",
+    "meaningEs": "lujuria",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16584
+  },
+  {
+    "lemma": "magnetism",
+    "meaningEs": "magnetismo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16658
+  },
+  {
+    "lemma": "malfunction",
+    "meaningEs": "avería",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16705
+  },
+  {
+    "lemma": "manicure",
+    "meaningEs": "manicura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16756
+  },
+  {
+    "lemma": "manipulation",
+    "meaningEs": "manipulación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16763
+  },
+  {
+    "lemma": "mechanism",
+    "meaningEs": "mecanismo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 16936
+  },
+  {
+    "lemma": "monotony",
+    "meaningEs": "monotonía",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 17438
+  },
+  {
+    "lemma": "motley",
+    "meaningEs": "batiburrillo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 17510
+  },
+  {
+    "lemma": "mountaineer",
+    "meaningEs": "alpinista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 17525
+  },
+  {
+    "lemma": "mythology",
+    "meaningEs": "mitología",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 17675
+  },
+  {
+    "lemma": "niche",
+    "meaningEs": "hornacina",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 17883
+  },
+  {
+    "lemma": "oddity",
+    "meaningEs": "rareza",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18134
+  },
+  {
+    "lemma": "offspring",
+    "meaningEs": "descendencia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18160
+  },
+  {
+    "lemma": "orchard",
+    "meaningEs": "huerta",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18298
+  },
+  {
+    "lemma": "otter",
+    "meaningEs": "nutria",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18415
+  },
+  {
+    "lemma": "outset",
+    "meaningEs": "inicio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18438
+  },
+  {
+    "lemma": "overalls",
+    "meaningEs": "overol",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18445
+  },
+  {
+    "lemma": "overdraft",
+    "meaningEs": "sobregiro",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18451
+  },
+  {
+    "lemma": "panorama",
+    "meaningEs": "panorama",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18608
+  },
+  {
+    "lemma": "peacock",
+    "meaningEs": "pavo real",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18816
+  },
+  {
+    "lemma": "peasant",
+    "meaningEs": "campesino",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18825
+  },
+  {
+    "lemma": "pedicure",
+    "meaningEs": "pedicura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18845
+  },
+  {
+    "lemma": "pendulum",
+    "meaningEs": "péndulo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18873
+  },
+  {
+    "lemma": "peninsula",
+    "meaningEs": "península",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18879
+  },
+  {
+    "lemma": "persecution",
+    "meaningEs": "persecución",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 18977
+  },
+  {
+    "lemma": "physicality",
+    "meaningEs": "corporalidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19155
+  },
+  {
+    "lemma": "physique",
+    "meaningEs": "físico",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19164
+  },
+  {
+    "lemma": "pigeon",
+    "meaningEs": "paloma",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19200
+  },
+  {
+    "lemma": "pinnacle",
+    "meaningEs": "cumbre",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19232
+  },
+  {
+    "lemma": "pioneer",
+    "meaningEs": "pionero",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19240
+  },
+  {
+    "lemma": "plaque",
+    "meaningEs": "placa",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19299
+  },
+  {
+    "lemma": "plaster",
+    "meaningEs": "yeso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19303
+  },
+  {
+    "lemma": "plumbing",
+    "meaningEs": "cañería",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19365
+  },
+  {
+    "lemma": "plummet",
+    "meaningEs": "plomada",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19368
+  },
+  {
+    "lemma": "plunge",
+    "meaningEs": "zambullida",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19371
+  },
+  {
+    "lemma": "poise",
+    "meaningEs": "aplomo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19409
+  },
+  {
+    "lemma": "posture",
+    "meaningEs": "postura",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19587
+  },
+  {
+    "lemma": "preacher",
+    "meaningEs": "predicador",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19639
+  },
+  {
+    "lemma": "precision",
+    "meaningEs": "precisión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19654
+  },
+  {
+    "lemma": "predecessor",
+    "meaningEs": "predecesor",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19664
+  },
+  {
+    "lemma": "premise",
+    "meaningEs": "premisa",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19691
+  },
+  {
+    "lemma": "premises",
+    "meaningEs": "local",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19692
+  },
+  {
+    "lemma": "professionalism",
+    "meaningEs": "profesionalidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19808
+  },
+  {
+    "lemma": "prophet",
+    "meaningEs": "profeta",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19870
+  },
+  {
+    "lemma": "protagonist",
+    "meaningEs": "protagonista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 19908
+  },
+  {
+    "lemma": "purity",
+    "meaningEs": "pureza",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20064
+  },
+  {
+    "lemma": "quarry",
+    "meaningEs": "cantera",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20141
+  },
+  {
+    "lemma": "quest",
+    "meaningEs": "búsqueda",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20156
+  },
+  {
+    "lemma": "quirk",
+    "meaningEs": "peculiaridad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20179
+  },
+  {
+    "lemma": "radiator",
+    "meaningEs": "radiador",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20205
+  },
+  {
+    "lemma": "rapport",
+    "meaningEs": "afinidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20280
+  },
+  {
+    "lemma": "rarity",
+    "meaningEs": "rareza",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20286
+  },
+  {
+    "lemma": "realism",
+    "meaningEs": "realismo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20334
+  },
+  {
+    "lemma": "realist",
+    "meaningEs": "realista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20335
+  },
+  {
+    "lemma": "recess",
+    "meaningEs": "receso",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20366
+  },
+  {
+    "lemma": "remorse",
+    "meaningEs": "remordimiento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20522
+  },
+  {
+    "lemma": "render",
+    "meaningEs": "renderizado",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20527
+  },
+  {
+    "lemma": "rendering",
+    "meaningEs": "versión",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20529
+  },
+  {
+    "lemma": "repute",
+    "meaningEs": "reputación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20586
+  },
+  {
+    "lemma": "resilience",
+    "meaningEs": "resiliencia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20605
+  },
+  {
+    "lemma": "resin",
+    "meaningEs": "resina",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20606
+  },
+  {
+    "lemma": "respite",
+    "meaningEs": "respiro",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20621
+  },
+  {
+    "lemma": "restoration",
+    "meaningEs": "restauración",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20627
+  },
+  {
+    "lemma": "retention",
+    "meaningEs": "retención",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20641
+  },
+  {
+    "lemma": "riveting",
+    "meaningEs": "remachado",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20788
+  },
+  {
+    "lemma": "rumble",
+    "meaningEs": "pelea callejera",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20900
+  },
+  {
+    "lemma": "rustle",
+    "meaningEs": "crujido",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20923
+  },
+  {
+    "lemma": "sacrifice",
+    "meaningEs": "sacrificio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 20949
+  },
+  {
+    "lemma": "saloon",
+    "meaningEs": "taberna",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21007
+  },
+  {
+    "lemma": "salvation",
+    "meaningEs": "salvación",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21015
+  },
+  {
+    "lemma": "salve",
+    "meaningEs": "ungüento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21016
+  },
+  {
+    "lemma": "sanctity",
+    "meaningEs": "santidad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21032
+  },
+  {
+    "lemma": "sap",
+    "meaningEs": "savia",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21051
+  },
+  {
+    "lemma": "sarcasm",
+    "meaningEs": "sarcasmo",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21064
+  },
+  {
+    "lemma": "sauna",
+    "meaningEs": "sauna",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21094
+  },
+  {
+    "lemma": "scenario",
+    "meaningEs": "escenario",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21147
+  },
+  {
+    "lemma": "scoff",
+    "meaningEs": "burla",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21199
+  },
+  {
+    "lemma": "scorn",
+    "meaningEs": "desprecio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21207
+  },
+  {
+    "lemma": "screenwriter",
+    "meaningEs": "guionista",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21232
+  },
+  {
+    "lemma": "scrutiny",
+    "meaningEs": "escrutinio",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21249
+  },
+  {
+    "lemma": "seedling",
+    "meaningEs": "plántula",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21316
+  },
+  {
+    "lemma": "sentiment",
+    "meaningEs": "sentimiento",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21437
+  },
+  {
+    "lemma": "sequel",
+    "meaningEs": "secuela",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21454
+  },
+  {
+    "lemma": "shambles",
+    "meaningEs": "desastre",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21540
+  },
+  {
+    "lemma": "silhouette",
+    "meaningEs": "silueta",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21719
+  },
+  {
+    "lemma": "simplicity",
+    "meaningEs": "sencillez",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21743
+  },
+  {
+    "lemma": "slack",
+    "meaningEs": "flojedad",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21831
+  },
+  {
+    "lemma": "slob",
+    "meaningEs": "guarro",
+    "pos": "noun",
+    "cefr": "C1",
+    "frequencyRank": 21872
+  },
+  {
+    "lemma": "jargon",
+    "meaningEs": "jerga",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15771
+  },
+  {
+    "lemma": "knack",
+    "meaningEs": "aptitud",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 15994
+  },
+  {
+    "lemma": "lament",
+    "meaningEs": "lamento",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16095
+  },
+  {
+    "lemma": "locomotion",
+    "meaningEs": "locomoción",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16476
+  },
+  {
+    "lemma": "locomotive",
+    "meaningEs": "locomotora",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16477
+  },
+  {
+    "lemma": "lyricist",
+    "meaningEs": "letrista",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16596
+  },
+  {
+    "lemma": "maggot",
+    "meaningEs": "gusano",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16648
+  },
+  {
+    "lemma": "magpie",
+    "meaningEs": "urraca",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16666
+  },
+  {
+    "lemma": "materialism",
+    "meaningEs": "materialismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16878
+  },
+  {
+    "lemma": "mediocrity",
+    "meaningEs": "mediocridad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16947
+  },
+  {
+    "lemma": "melancholy",
+    "meaningEs": "melancolía",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 16976
+  },
+  {
+    "lemma": "menace",
+    "meaningEs": "amenaza",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17003
+  },
+  {
+    "lemma": "menial",
+    "meaningEs": "criado",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17010
+  },
+  {
+    "lemma": "mercenary",
+    "meaningEs": "mercenario",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17028
+  },
+  {
+    "lemma": "merit",
+    "meaningEs": "mérito",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17039
+  },
+  {
+    "lemma": "mesh",
+    "meaningEs": "malla",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17052
+  },
+  {
+    "lemma": "meteorology",
+    "meaningEs": "meteorología",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17099
+  },
+  {
+    "lemma": "midwifery",
+    "meaningEs": "partería",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17179
+  },
+  {
+    "lemma": "minefield",
+    "meaningEs": "campo de minas",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17228
+  },
+  {
+    "lemma": "modernism",
+    "meaningEs": "modernismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17348
+  },
+  {
+    "lemma": "myriad",
+    "meaningEs": "miríada",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17665
+  },
+  {
+    "lemma": "nostalgia",
+    "meaningEs": "nostalgia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 17991
+  },
+  {
+    "lemma": "nostalgic",
+    "meaningEs": "nostálgico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 17992
+  },
+  {
+    "lemma": "notoriety",
+    "meaningEs": "notoriedad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18001
+  },
+  {
+    "lemma": "opacity",
+    "meaningEs": "opacidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18244
+  },
+  {
+    "lemma": "opulence",
+    "meaningEs": "opulencia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18283
+  },
+  {
+    "lemma": "ore",
+    "meaningEs": "mena",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18315
+  },
+  {
+    "lemma": "parable",
+    "meaningEs": "parábola",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18638
+  },
+  {
+    "lemma": "perch",
+    "meaningEs": "perca",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 18916
+  },
+  {
+    "lemma": "philanthropist",
+    "meaningEs": "filántropo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19056
+  },
+  {
+    "lemma": "philanthropy",
+    "meaningEs": "filantropía",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19057
+  },
+  {
+    "lemma": "plumage",
+    "meaningEs": "plumaje",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19361
+  },
+  {
+    "lemma": "plume",
+    "meaningEs": "penacho",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19367
+  },
+  {
+    "lemma": "posit",
+    "meaningEs": "postulado",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19556
+  },
+  {
+    "lemma": "posterity",
+    "meaningEs": "posteridad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19574
+  },
+  {
+    "lemma": "posturing",
+    "meaningEs": "postureo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19588
+  },
+  {
+    "lemma": "profitability",
+    "meaningEs": "rentabilidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19815
+  },
+  {
+    "lemma": "proliferation",
+    "meaningEs": "proliferación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19839
+  },
+  {
+    "lemma": "promenade",
+    "meaningEs": "paseo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19844
+  },
+  {
+    "lemma": "proposition",
+    "meaningEs": "proposición",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19879
+  },
+  {
+    "lemma": "provocation",
+    "meaningEs": "provocación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 19944
+  },
+  {
+    "lemma": "pyre",
+    "meaningEs": "pira",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20093
+  },
+  {
+    "lemma": "quiver",
+    "meaningEs": "aljaba",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20182
+  },
+  {
+    "lemma": "rapture",
+    "meaningEs": "éxtasis",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20284
+  },
+  {
+    "lemma": "rebuke",
+    "meaningEs": "reprimenda",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20353
+  },
+  {
+    "lemma": "recluse",
+    "meaningEs": "ermitaño",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20375
+  },
+  {
+    "lemma": "reconciliation",
+    "meaningEs": "reconciliación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20382
+  },
+  {
+    "lemma": "recourse",
+    "meaningEs": "recurso",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20390
+  },
+  {
+    "lemma": "redundancy",
+    "meaningEs": "redundancia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20425
+  },
+  {
+    "lemma": "remit",
+    "meaningEs": "competencia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20517
+  },
+  {
+    "lemma": "remittance",
+    "meaningEs": "remesa",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20518
+  },
+  {
+    "lemma": "repose",
+    "meaningEs": "reposo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20567
+  },
+  {
+    "lemma": "residue",
+    "meaningEs": "residuo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20604
+  },
+  {
+    "lemma": "retrospective",
+    "meaningEs": "retrospectiva",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20659
+  },
+  {
+    "lemma": "revulsion",
+    "meaningEs": "repulsión",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20689
+  },
+  {
+    "lemma": "rhetoric",
+    "meaningEs": "retórica",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20701
+  },
+  {
+    "lemma": "rift",
+    "meaningEs": "grieta",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20754
+  },
+  {
+    "lemma": "romp",
+    "meaningEs": "retozo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 20829
+  },
+  {
+    "lemma": "scavenger",
+    "meaningEs": "carroñero",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21146
+  },
+  {
+    "lemma": "scroll",
+    "meaningEs": "rollo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21240
+  },
+  {
+    "lemma": "selectivity",
+    "meaningEs": "selectividad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21333
+  },
+  {
+    "lemma": "shoal",
+    "meaningEs": "bajo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21630
+  },
+  {
+    "lemma": "slab",
+    "meaningEs": "losa",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21830
+  },
+  {
+    "lemma": "smattering",
+    "meaningEs": "noción",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21895
+  },
+  {
+    "lemma": "snippet",
+    "meaningEs": "fragmento",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 21940
+  },
+  {
+    "lemma": "solitary",
+    "meaningEs": "solitario",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22015
+  },
+  {
+    "lemma": "solitude",
+    "meaningEs": "soledad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22016
+  },
+  {
+    "lemma": "spire",
+    "meaningEs": "aguja",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22192
+  },
+  {
+    "lemma": "splinter",
+    "meaningEs": "astilla",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22211
+  },
+  {
+    "lemma": "spontaneity",
+    "meaningEs": "espontaneidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22230
+  },
+  {
+    "lemma": "squint",
+    "meaningEs": "estrabismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22286
+  },
+  {
+    "lemma": "stoicism",
+    "meaningEs": "estoicismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22475
+  },
+  {
+    "lemma": "stratosphere",
+    "meaningEs": "estratosfera",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22533
+  },
+  {
+    "lemma": "subsistence",
+    "meaningEs": "subsistencia",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22642
+  },
+  {
+    "lemma": "surrealism",
+    "meaningEs": "surrealismo",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22790
+  },
+  {
+    "lemma": "surrealist",
+    "meaningEs": "surrealista",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22791
+  },
+  {
+    "lemma": "synthesis",
+    "meaningEs": "síntesis",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22911
+  },
+  {
+    "lemma": "tactic",
+    "meaningEs": "táctica",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 22943
+  },
+  {
+    "lemma": "tenacity",
+    "meaningEs": "tenacidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23139
+  },
+  {
+    "lemma": "topography",
+    "meaningEs": "topografía",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23479
+  },
+  {
+    "lemma": "transmitter",
+    "meaningEs": "transmisor",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23619
+  },
+  {
+    "lemma": "treachery",
+    "meaningEs": "traición",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23651
+  },
+  {
+    "lemma": "trifle",
+    "meaningEs": "sopa inglesa",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23712
+  },
+  {
+    "lemma": "turret",
+    "meaningEs": "torreta",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 23862
+  },
+  {
+    "lemma": "vermin",
+    "meaningEs": "alimaña",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24211
+  },
+  {
+    "lemma": "vicinity",
+    "meaningEs": "proximidad",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24249
+  },
+  {
+    "lemma": "vindication",
+    "meaningEs": "reivindicación",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24283
+  },
+  {
+    "lemma": "virtuoso",
+    "meaningEs": "virtuoso",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24305
+  },
+  {
+    "lemma": "vortex",
+    "meaningEs": "remolino",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24373
+  },
+  {
+    "lemma": "whirlwind",
+    "meaningEs": "torbellino",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24579
+  },
+  {
+    "lemma": "zoology",
+    "meaningEs": "zoología",
+    "pos": "noun",
+    "cefr": "C2",
+    "frequencyRank": 24868
+  },
+  {
+    "lemma": "baroque",
+    "meaningEs": "barroco",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 24948
+  },
+  {
+    "lemma": "abhorrent",
+    "meaningEs": "aborrecible",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25299
+  },
+  {
+    "lemma": "abject",
+    "meaningEs": "abyecto",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25301
+  },
+  {
+    "lemma": "acrobatic",
+    "meaningEs": "acrobático",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25372
+  },
+  {
+    "lemma": "aghast",
+    "meaningEs": "aterrado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25474
+  },
+  {
+    "lemma": "agile",
+    "meaningEs": "ágil",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25475
+  },
+  {
+    "lemma": "all-encompassing",
+    "meaningEs": "abarcador",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25515
+  },
+  {
+    "lemma": "allegorical",
+    "meaningEs": "alegórico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25520
+  },
+  {
+    "lemma": "amorphous",
+    "meaningEs": "amorfo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25570
+  },
+  {
+    "lemma": "angular",
+    "meaningEs": "angular",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25614
+  },
+  {
+    "lemma": "anthropological",
+    "meaningEs": "antropológico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25656
+  },
+  {
+    "lemma": "antithetical",
+    "meaningEs": "antitético",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25744
+  },
+  {
+    "lemma": "arcane",
+    "meaningEs": "arcano",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25814
+  },
+  {
+    "lemma": "archetypal",
+    "meaningEs": "arquetípico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25819
+  },
+  {
+    "lemma": "arduous",
+    "meaningEs": "arduo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25825
+  },
+  {
+    "lemma": "attuned",
+    "meaningEs": "afinado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25926
+  },
+  {
+    "lemma": "austere",
+    "meaningEs": "severo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25941
+  },
+  {
+    "lemma": "autonomous",
+    "meaningEs": "autónomo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25958
+  },
+  {
+    "lemma": "averse",
+    "meaningEs": "reacio",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25966
+  },
+  {
+    "lemma": "avian",
+    "meaningEs": "aviar",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 25967
+  },
+  {
+    "lemma": "belligerent",
+    "meaningEs": "beligerante",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26055
+  },
+  {
+    "lemma": "bereft",
+    "meaningEs": "afligido",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26063
+  },
+  {
+    "lemma": "bogus",
+    "meaningEs": "falso",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26155
+  },
+  {
+    "lemma": "callous",
+    "meaningEs": "insensible",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26278
+  },
+  {
+    "lemma": "cogent",
+    "meaningEs": "contundente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26518
+  },
+  {
+    "lemma": "cognitive",
+    "meaningEs": "cognitivo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26520
+  },
+  {
+    "lemma": "colloquial",
+    "meaningEs": "coloquial",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26530
+  },
+  {
+    "lemma": "commensurate",
+    "meaningEs": "proporcionado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26555
+  },
+  {
+    "lemma": "confrontational",
+    "meaningEs": "beligerante",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26616
+  },
+  {
+    "lemma": "contractual",
+    "meaningEs": "contractual",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26670
+  },
+  {
+    "lemma": "cosmic",
+    "meaningEs": "cósmico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26724
+  },
+  {
+    "lemma": "counterproductive",
+    "meaningEs": "contraproducente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26738
+  },
+  {
+    "lemma": "deficient",
+    "meaningEs": "deficiente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26921
+  },
+  {
+    "lemma": "depraved",
+    "meaningEs": "depravado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26978
+  },
+  {
+    "lemma": "depressive",
+    "meaningEs": "depresivo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 26982
+  },
+  {
+    "lemma": "deterrent",
+    "meaningEs": "disuasivo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27013
+  },
+  {
+    "lemma": "deviant",
+    "meaningEs": "aberrante",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27021
+  },
+  {
+    "lemma": "diffuse",
+    "meaningEs": "difuso",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27063
+  },
+  {
+    "lemma": "disparaging",
+    "meaningEs": "despectivo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27129
+  },
+  {
+    "lemma": "egalitarian",
+    "meaningEs": "igualitario",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27295
+  },
+  {
+    "lemma": "elated",
+    "meaningEs": "eufórico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27315
+  },
+  {
+    "lemma": "eminent",
+    "meaningEs": "eminente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27353
+  },
+  {
+    "lemma": "ephemeral",
+    "meaningEs": "efímero",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27420
+  },
+  {
+    "lemma": "euphoric",
+    "meaningEs": "eufórico",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27492
+  },
+  {
+    "lemma": "extant",
+    "meaningEs": "existente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27571
+  },
+  {
+    "lemma": "extracurricular",
+    "meaningEs": "extracurricular",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27583
+  },
+  {
+    "lemma": "farcical",
+    "meaningEs": "farsesco",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27638
+  },
+  {
+    "lemma": "forlorn",
+    "meaningEs": "abandonado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 27800
+  },
+  {
+    "lemma": "gravitational",
+    "meaningEs": "gravitatorio",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28060
+  },
+  {
+    "lemma": "haphazard",
+    "meaningEs": "desordenado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28139
+  },
+  {
+    "lemma": "hapless",
+    "meaningEs": "desgraciado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28140
+  },
+  {
+    "lemma": "haughty",
+    "meaningEs": "altivo",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28163
+  },
+  {
+    "lemma": "hypothetical",
+    "meaningEs": "hipotético",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28396
+  },
+  {
+    "lemma": "idiosyncratic",
+    "meaningEs": "idiosincrático",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28416
+  },
+  {
+    "lemma": "impeccable",
+    "meaningEs": "impecable",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28475
+  },
+  {
+    "lemma": "incongruous",
+    "meaningEs": "incongruente",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28561
+  },
+  {
+    "lemma": "incumbent",
+    "meaningEs": "en funciones",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28577
+  },
+  {
+    "lemma": "indignant",
+    "meaningEs": "indignado",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28594
+  },
+  {
+    "lemma": "infallible",
+    "meaningEs": "infalible",
+    "pos": "adjective",
+    "cefr": "C2",
+    "frequencyRank": 28645
+  }
+]
